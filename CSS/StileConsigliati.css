@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+.link_element{
+	padding:.5em;
+	width: 100%;
+	display:table;
+}
+p{
+	margin:.5em;
+}
+.link_element > p{
+	float:left;
+}
+.link_element > div{
+	display:table-cell;
+	vertical-align:middle;
+	width:100%;
+}

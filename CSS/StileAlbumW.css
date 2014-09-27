@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background:#FFF;
+}
+.album_cell{
+	font-size:.8em;
+	display:inline-block;
+	
+}
+.album_cell p{
+	font-style:italic;
+}
+.album_name{
+	font-style:normal;
+	font-weight:bold;
+}
+#container{
+	text-align:center;
+}
