@@ -77,11 +77,11 @@ di Segantin & Zambon - Venezia</title>
 		var datastring =$( this ).serialize();
 		$.ajax({
 			type: "POST",
-			url: "post_prezzi.php",
+			url: "../post_prezzi.php",
 			data: datastring,
 			success: function(data) {
 				if (data.indexOf("http://")>-1) {
-					window.location.href = data;
+					window.location.href = "Prezziok.htm";
 				}
 				$.each($.parseJSON(data), function() {
 					$("#"+this.id+"_err").show();
@@ -111,14 +111,14 @@ di Segantin & Zambon - Venezia</title>
 <body>
 <span id="cover"></span>
  <div id="mobile_menu" class="mobile_Navigation">
-        <a href="./">Home</a> &raquo;
+        <a href="../">Home</a> &raquo;
         <span>Prezzi</span>
         <a id="nav-toggle" href="#"><span>&#x2261;</span></a>
         <span class="clear"></span>
     </div>
 <div id="menu" >
 	<ul>
-    	<li ><a href="\">Home</a></li>
+    	<li ><a href="../">Home</a></li>
     	<li><a href="FotografoMatrimonioVenezia.htm">Chi siamo</a></li>
     	<li><a href="FAQ.html">FAQ</a></li>
     	<li><a href="PersonalPhotographerVenice.htm">Personal Photographer</a></li>
@@ -132,11 +132,11 @@ di Segantin & Zambon - Venezia</title>
     </ul>
 </div>
 <div id="bread_crumbs" class="PC_Navigation">
-    <a href="./">Home</a> &raquo;
+    <a href="../">Home</a> &raquo;
     <span>Prezzi</span>
 </div>
 <div id="mainDiv">
-<form name="form1" id="form1" method="post" action="post_prezzi.php">
+<form name="form1" id="form1" method="post" action="../post_prezzi.php">
   
   <p>Richiesta di preventivo non vincolante:</p>
   

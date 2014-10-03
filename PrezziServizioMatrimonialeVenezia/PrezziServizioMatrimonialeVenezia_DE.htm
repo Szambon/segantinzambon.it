@@ -77,11 +77,11 @@ von Segantin & Zambon - Venedig</title>
 		var datastring =$( this ).serialize();
 		$.ajax({
 			type: "POST",
-			url: "post_prezzi.php",
+			url: "../post_prezzi.php",
 			data: datastring,
 			success: function(data) {
 				if (data.indexOf("http://")>-1) {
-					window.location.href = data;
+					window.location.href = "Prezziok_DE.htm";
 				}
 				$.each($.parseJSON(data), function() {
 					$("#"+this.id+"_err").show();
@@ -109,20 +109,20 @@ von Segantin & Zambon - Venedig</title>
 <body>
 <div id="menu" >
 	<ul>
-    	<li ><a href="\">Home</a></li>
+    	<li ><a href="../">Home</a></li>
     	<li><a href="FotografoMatrimonioVenezia_DE.htm">Über uns</a></li>
     	<li><a href="Galleria_DE.htm">Galerie</a></li>
     	<li><a href="FotoAlbum_DE.htm">Album</a></li>
     	<li><a href="Fujifilm_DE.htm">Fujifilm</a></li>
     	<li><a href="Consigliati_DE.htm">Links</a></li>
-    	<li class="selected>Preise</li>
+    	<li class="selected">Preise</li>
     	<li><a href="Contatto_DE.htm">Kontakt</a></li>
     </ul>
 </div>
 
 
 <div id="mainDiv">
-<form name="form1" id="form1" method="post" action="post_prezzi_DE.php">
+<form name="form1" id="form1" method="post" action="../post_prezzi.php">
   
   <p>Fordern Sie ein unverbindliches Angebot an:</p>
   

@@ -82,7 +82,7 @@ body{
 #menu{
 	   color:white;
 	   width: 100%;
-	   background-image:url(../Immagini/X_Index/sfondo5.jpg) !important;
+	   background:#666 url(../Immagini/X_Index/sfondo5.jpg) !important;
 	   text-align:center;
 	   margin:auto;
    }
@@ -232,9 +232,10 @@ li.selected{
 	font-size:medium;
 	color: #333;
 	font-style:italic;
-
 }
-
+.not_underlined_text{
+	text-decoration:none;
+}
 .xbarra {
 	font-size:smaller;
 	color: #000000;

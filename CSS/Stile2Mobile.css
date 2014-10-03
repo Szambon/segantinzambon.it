@@ -8,7 +8,7 @@ img{
 	width:100%;
 	position:fixed;
 	z-index:9;
-	 background-image:url(../Immagini/X_Index/sfondo5.jpg) !important;
+	 background: #666 url(../Immagini/X_Index/sfondo5.jpg) !important;
 }
 .related_images{
 	float:none;
@@ -29,6 +29,12 @@ img{
 }
 #incr_lateral{
 	margin:0px;
+}
+#mainDiv{
+	padding-top:40pt;
+	width:95%;
+	margin:auto;
+	min-width:0px;
 }
 #container{
 	padding-top:40pt;
