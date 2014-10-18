@@ -124,26 +124,32 @@ von Segantin & Zambon - Venedig</title>
 <div id="mainDiv">
 <form name="form1" id="form1" method="post" action="../post_prezzi.php">
   
-  <p>Pers&ouml;nliche Angaben:</p>
-<p>Datum  der Hochzeit:
-  <input name="data" type="text" id="data">
-</p>
+  <p>Fordern Sie ein unverbindliches Angebot an:</p>
+  
+  <p>
+    <label for="data">Das Datum Ihrer Hochzeit</label>
+    <input name="data" type="text" id="data">
+  </p>
   
   <div id="data_err"  class="testoerr"><p> Sie können das Datum Ihrer Hochzeit geben.</p></div>
   
-  <p>Namen  der Braut und des Br&auml;utigams:
+  <p>
+    <label for="Nomi">Der Name der künftigen Braut und Bräutigam</label>
     <input name="Nomi" type="text" id="Nomi">
   </p>
   
   <div id="Nomi_err"  class="testoerr"> <p>Geben Sie einfach Ihre Namen</p></div>
-  <p>Welche Art von Shooting wollen Sie:</p>
-<p>
+  <p>Was brauchen Sie für Ihr Foto-Shooting :</p>
+  <p>
       <input type="radio" name="Tipo_Servizio" value="Solo Servizio con immagini su disco" id="TipoServizio_0">
-      Fotos  ohne Album<br>
+    <label for="TipoServizio_0">
+     Nur Fotoshooting ohne Album </label>
+    <br>
       <input type="radio" name="Tipo_Servizio" value="Servizio con Album Tradizionale" id="TipoServizio_1">
-      Fotos  mit Traditionelle Album<br>
+      <label for="TipoServizio_1">Fotoshooting mit Traditional Album</label>
+      <br>
       <input type="radio" name="Tipo_Servizio" value="Servizio con Foto Album" id="TipoServizio_2">
-      Fotos  mit Fotoalbum</p>
+    <label for="TipoServizio_2">Fotoshooting mit Foto-Album</label></p>
     <div id="Tipo_Servizio_err"  class="testoerr">
     	<p>
  			Markieren Sie die Art von Foto-Shooting Sie wollen.
@@ -151,48 +157,63 @@ von Segantin & Zambon - Venedig</title>
   </div>
   
  
-  <p>Der Fotograf soll anwesend sein:</p>
-<p>
+  <p>Wie lange wollen Sie den Fotografen:</p>
+  <p>
       <input type="radio" name="Tempo" value="Solo Cerimonia" id="Tempodedicatoalservizio_0">
-      Nur  zur Trauungszeremonie<br>
+    <label for="Tempodedicatoalservizio_0">
+      nur Verleihung</label>
+    <br>
       <input type="radio" name="Tempo" value="Cerimonia e taglio torta anticipato" id="Tempodedicatoalservizio_1">
-      Zur&nbsp; Trauungszeremonie und zum Tortenanschnitt<br>
+    <label for="Tempodedicatoalservizio_1">Zeremonie und Kuchen schneiden</label>
+    <br>
       <input type="radio" name="Tempo" value="Preparazione, Cerimonia e taglio torta anticipato" id="Tempodedicatoalservizio_2">
-      Vorbereitung  der Braut und des Br&auml;utigams, Trauungszeremonie und Tortenanschnitt<br>
+    <label for="Tempodedicatoalservizio_2">
+      Vorbereitung der Braut und des Bräutigams, Kuchen schneiden und Zeremonie </label>
+    <br>
       <input type="radio" name="Tempo" value="Dalla Preparazione alla fine del ricevimento" id="Tempodedicatoalservizio_3">
-      Von  der&nbsp; Vorbereitung der Braut und des Br&auml;utigams bis zum Ende  des Festes</p>
+    <label for="Tempodedicatoalservizio_3">
+     Während der Veranstaltung, von der Vorbereitung der Braut und Bräutigam bis zum Ende des Empfangs</label>
+   
+  </p>
     <div id="Tempo_err"  class="testoerr">
     	<p>
         	Angeben, wie lange die Anwesenheit des Fotografen wollen.
 		</p>
 	</div>
-  <p>Ort der  Trauungszeremonie
-    <input type="text" name="Luogo" id="Luogo">
+  <p>
+    <label for="Luogo">Wo wird die Hochzeit zu feiern?
+    </label>
+      <input type="text" name="Luogo" id="Luogo">
   </p>
     <div id="Luogo_err"  class="testoerr">
     	<p>
 			Geben Sie den Ort, wo die Hochzeit gehaltenen wird.
 		</p>
     </div>
-  <p>F&uuml;r unser Foto-Shooting m&ouml;chten wir:</p>
-<p>
+  <p>Für Ihre Foto-Shooting Sie möchten:</p>
+  <p>
       <input type="radio" name="fotografi" value="1 fotografo" id="2_fotografi_0">
     <label for="2_fotografi_0">
-     Einen Fotografen</label>
+     1 Fotograf</label>
     <br>
        <input type="radio" name="fotografi" value="2 fotografi" id="2_fotografi_1">
-       <label for="2_fotografi_1">Zwei Fotografen</label>
+    <label for="2_fotografi_1">
+      2 Fotografen</label>
        <br>
       <input type="radio" name="fotografi" value="staff di fotografi e assistenti " id="2_fotografi_2">
-      Ein  Fotografen-Team mit Assistenten<br>
+    <label for="2_fotografi_2">
+      Mitarbeiter der Fotografen und Assistenten </label>
+      <br>
       <input type="radio" name="fotografi" value="fotografi + operatore video  " id="2_fotografi_3">
-      Fotografen&nbsp; und Video Operator</p>
+    <label for="2_fotografi_3">
+     Fotografen und Kameramann</label>
+  </p>
   
     <div id="fotografi_err"  class="testoerr"><p>
   Geben Sie an, ob die Anwesenheit von mehreren Fotografen, um mehr Punkte zu bekommen Blick bei der Aufnahme von Standbildern, und wenn Sie wollen auch die Anwesenheit von einem Kameramann, um Ihre Hochzeitsvideo zu drehen.</p></div>
 
-    <p>M&ouml;chten Sie eine Drucker-Bereitstellung,&nbsp;  um sofort fuer Ihre G&auml;ste Bilder zu erstellen?</p>
-<p>
+    <p>Möchten Sie einen Drucker während der Rezeption zur Verfügung, um Sie und Ihre Gäste?</p>
+  <p>
       <input type="radio" name="StampaOnSite" value="Si" id="StampaOnSite_0">
       <label for="StampaOnSite_0">Ja</label>
       
@@ -205,8 +226,9 @@ von Segantin & Zambon - Venedig</title>
     <div id="StampaOnSite_err"  class="testoerr">
   <p>Angeben, ob Sie ein Drucker zur Verfügung für schnell ein paar Bilder drucken möchten.</p></div>
      
-  <p>M&ouml;chten Sie eine Bilder-Auswahl mit dem Fotografen treffen?&nbsp; </p>
-<p>
+  <p>Möchten Sie die Proben mit dem Fotografen, die Fotos für das Album zu wählen?
+  </p>
+  <p>
       <input type="radio" name="Stampa_provini" value="Sì" id="Stampa_provini_0">
     <label for="Stampa_provini_0">Ja</label>
     
@@ -216,8 +238,8 @@ von Segantin & Zambon - Venedig</title>
   </p>
     <div id="Stampa_provini_err"  class="testoerr">
   <p>Anzugeben, ob Sie die Proben drucken möchten, die eine Auswahl von Fotos zum Album bequemer erlauben.</p></div>
-  <p>M&ouml;chten Sie die Ver&ouml;ffentlichung der Hochzeit-Fotos im Internet  (passwortgesch&uuml;tzt)?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
-<p>
+  <p>Möchten Sie, die Proben an Ihre Hochzeit im Internet auf passwortgeschützte Seiten zu betrachten?</p>
+  <p>
       <input type="radio" name="Pubblicazione_Internet" value="Sì" id="Pubblicazione_Internet_0">
     <label for="Pubblicazione_Internet_0">
     Ja</label>
@@ -227,72 +249,91 @@ von Segantin & Zambon - Venedig</title>
   </p>
     
     <div id="Pubblicazione_Internet_err"  class="testoerr"><p>
- Angeben, ob Sie die Veröffentlichung von Hochzeitsfotos in Internet wollen.</p></div>
+  Indicare se si desidera la pubblicazione delle foto di matrimonio in internet, che potrete visionare e far visionare ai vostri ospiti muniti di password.</p></div>
     
-  <p>M&ouml;chten Sie 2 Album&nbsp; f&uuml;r die Eltern  der Braut und des&nbsp; Br&auml;utigams  zusaetzlich?</p>
-  <p>
-    <input type="radio" name="Album_Genitori" value="No" id="AlbumGenitori_0">
+  <p>Vorreste  2 Album Genitori
+    in aggiunta?
+      <br>
+      <br>
+      <input type="radio" name="Album_Genitori" value="No" id="AlbumGenitori_0">
     <label for="AlbumGenitori_0">
-      Nain</label>
-    <br>
-    <input type="radio" name="Album_Genitori" value="Sì, offset" id="AlbumGenitori_1">
-    <label for="AlbumGenitori_1">Ja,</label>
-    Offsetdruck (billiger)<br>
-    <input type="radio" name="Album_Genitori" value="Sì, fotografico" id="AlbumGenitori_2">
-    Ja,&nbsp; die gleiche Qualit&auml;t des Albums wie der  Ehegatten</p>
+      No</label>
+      <br>
+      <input type="radio" name="Album_Genitori" value="Sì, offset" id="AlbumGenitori_1">
+    <label for="AlbumGenitori_1">Sì, in offset (pi&ugrave; economico)</label>
+<br>
+      <input type="radio" name="Album_Genitori" value="Sì, fotografico" id="AlbumGenitori_2">
+    <label for="AlbumGenitori_2">Sì, della stessa qualit&agrave; dell'Album degli Sposi sia per la stampa che per la rilegatura</label>
+    </p>
     
     <div id="Album_Genitori_err"  class="testoerr"><p>
- Anzugeben, ob Sie wollen drucken 2 weitere Album.</p></div>
+  Indicare se si desidera la stampa di 2 Album aggiuntivi da regalare ai vostri genitori o amici.</p></div>
     
 
-  <p>M&ouml;chten Sie eine DVD mit&nbsp;  Musikuntermalung, im Fernsehen zu betrachten?</p>
-<p>
+  <p>Vorreste un DVD con uno Slide Show musicato di una selezione di foto del Matrimonio da vedere alla televisione?</p>
+  <p>
       <input type="radio" name="DVDSlideShow" value="Sì" id="DVDSlideShow_0">
-    <label for="DVDSlideShow_0">Ja</label>
+    <label for="DVDSlideShow_0">Sì</label>
   
       <input type="radio" name="DVDSlideShow" value="No" id="DVDSlideShow_1"/>
     <label for="DVDSlideShow_1">
-      Nain</label>
-</p>
+      No</label>
+  </p>
     <div id="DVDSlideShow_err"  class="testoerr">
-      <p>Angeben, ob Sie wollen  eine DVD mit&nbsp;  Musikuntermalung, die Sie im Fernsehen sehen können    </p>
+      <p>Indicare se si desidera ricevere anche un DVD musicato da poter guardare alla televisione condividento con parenti ed amici i momenti pi&ugrave; emozionanti del vostro matrimonio.    </p>
     </div>
-  <p>Wie  viel Euro haben Sie fuer die Bezahlung Ihres Foto-Shooting geplant?&nbsp;
-<input type="text" name="Spesa" id="Spesa">
+  <p>
+    <label for="Spesa">Quanto vorreste spendere per il vostro servizio fotografico Matrimoniale?
+    </label>
+      <input type="text" name="Spesa" id="Spesa">
   </p>
     <div id="Spesa_err"  class="testoerr"><p>
- Bitte Beantworten und ergänzen Sie die folgenden Fragen und Termine für unseren Kostenvoranschlag, den wir Ihnen gern per e-mail zusenden.</p></div>
-  <p>In eigener&nbsp; Sache: Wie haben Sie uns  gefunden?</p>
-<p>
+  Indicare la cifra che avete preventivato di spendere per il vostro matrimonio.</p></div>
+  <p>Come ci avete conosciuto?</p>
+  <p>
       <input type="radio" name="Conoscenza" value="Matrimonio di amici" id="Comeciconosci_0">
-      Anl&auml;sslich  einer anderen Hochzeit<br>
+    <label for="Comeciconosci_0">
+      Matrimonio di amici</label>
+    <br>
       <input type="radio" name="Conoscenza" value="Ricerca libera su internet" id="Comeciconosci_1">
-      Suche  im Internet<br>
+    <label for="Comeciconosci_1">Ricerca libera su internet</label>
+    <br>
       <input type="radio" name="Conoscenza" value="Siti Wedding" id="Comeciconosci_2">
-      Hochzeits-Websites<br>
+    <label for="Comeciconosci_2">Siti Wedding</label>
+    <br>
       <input type="radio" name="Conoscenza" value="Workshop fotografici" id="Comeciconosci_3">
-      Fotografen-Workshop  f&uuml;r Hochzeitsfeer<br>
+    <label for="Comeciconosci_3">
+      Workshop fotografici</label>
+    <br>
       <input type="radio" name="Conoscenza" value="Associazione Fotografi Matrimonialisti" id="Comeciconosci_4">
-      Fotografen-Verb&auml;nde<br>
+    <label for="Comeciconosci_4">
+      Associazioni Fotografi Matrimonialisti</label>
+    <br>
       <input type="radio" name="Conoscenza" value="Fiere/Eventi" id="Comeciconosci_5">
-      Feiern/Veranstaltungen<br>
+    <label for="Comeciconosci_5">
+      Fiere/Eventi</label>
+    <br>
    
       <input type="radio" name="Conoscenza" value="Altro" id="Comeciconosci_6">
-      Andere</p>
-<div id="Conoscenza_err" class="testoerr"><p>Bitte Beantworten und ergänzen Sie die folgenden Fragen und Termine für unseren Kostenvoranschlag, den wir Ihnen gern per e-mail zusenden.</p></div>
+      <label for="Comeciconosci_6">Altro</label>
+  </p>
+    <div id="Conoscenza_err" class="testoerr"><p>Rispondete anche a questa domanda</p></div>
   <p>
-    <label>Besondere  W&uuml;nsche Ihrerseits:      &nbsp; <br>
+    <label>Eventuali accortezze e indicazioni personali da tenere in considerazione per il vostro servizio fotografico:
+      <br>
+      <br>
       <textarea name="Accortezze" id="Accortezze" cols="45" rows="5"></textarea>
     </label>
   </p>
-  <p>e-mail-adresse:
-<input type="text" name="mail" id="mail">
+  <p>
+    <label for="mail">I'indirizzo mail al quale volete ricevere il vostro preventivo</label>
+    <input type="text" name="mail" id="mail">
   </p>
     <div id="mail_err" class="testoerr">
-  <p>Geben Sie Ihre E-Mail-Adresse</p></div>
+  <p>Indicare un indirizzo mail valido per ricevere il nostro preventivo</p></div>
   <p> 
-  <input type="submit" value="senden">
-  <input type="reset" value="rücksetzen">
+  <input type="submit" value="Invia">
+  <input type="reset" value="azzera">
   </p></form>
 </div>
   
