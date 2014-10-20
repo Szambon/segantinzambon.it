@@ -20,7 +20,11 @@ function setUpSlideShow($img_array, $lang, $title, $desc, $menu){
 
 <link rel="shortcut icon" href="../images/faricon1.ico"/>
 <link href="../CSS/Stile2.css" rel="stylesheet" type="text/css"/>
-<link href="../CSS/Stile3.css" rel="stylesheet" type="text/css"/>
+<style type="text/css">
+body{
+	background:#666666;
+}
+</style>
 
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <meta name="description" content="<? echo $desc;?>" />
