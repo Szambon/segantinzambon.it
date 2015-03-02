@@ -1,0 +1,83 @@
+@charset "utf-8";
+body{
+	background: #000033;
+}
+.bandiere{
+	margin:20% 0 20% 0;
+	background: #000033;
+	border: 0;
+	display:list-item;
+}
+.barre{
+	display:inline-table;
+}
+#grandeimm{
+	margin:2% 0 2% 0;
+	background: #000033;
+	border: 0;
+	display:list-item;
+	
+}
+#barbandiere{
+	float:center;
+	margin:10% 10% 10% 10%;
+}
+#slogan{
+	text-align:center;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:140%;
+	color:white;
+}
+#slogan2{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:90%;
+	color:white;
+	text-align: center;
+}
+#slogan2G{
+	text-align:center;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:100%;
+	color:white;
+}
+.link{
+	text-align:center;
+	color:white;
+	font-size:100%;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+#link{
+	font-style:italic;
+	color:white;
+	font-size:18px;
+	text-align:center;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+.logo{
+	width:100px;
+	height:100px;
+	text-align-last:center
+	
+	
+
+	
+}
+.logo2{
+	display:inline-table;
+	
+	
+	
+}
+.tabella{
+  margin:0 0 0 0%;
+
+}
+.ragione.sociale #slogan2 {
+	font-weight: normal;
+}
+.ragione.sociale #slogan2G {
+	font-weight: bold;
+}

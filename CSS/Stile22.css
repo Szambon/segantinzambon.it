@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background:#006600 !important;
+}
+.testoverde{
+	color:#006600;
+	font-size:9px;
+	}
+.testosito{
+	color:#FFF !important;
+	}
+.testositopiccolo{
+	color:#FFF !important;
+	}
+. citazioni{
+	color:#FFFFFF !important;
+	}
+	.xbarraB {
+	font-size:smaller;
+	color:#FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	
+
+}
+#lateral_column{
+	float:left;
+	width:170px;
+	text-align:center;
+	padding:15% 0;
+}
+#lateral_column img{
+	margin:.5em 0;
+}

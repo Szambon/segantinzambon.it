@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+img{
+	max-width:90%;
+	height:auto;
+}
+#mobile_menu{
+	width:100%;
+	position:fixed;
+	z-index:9;
+	 background: #666 url(../Immagini/X_Index/sfondo5.jpg) !important;
+}
+.related_images{
+	float:none;
+}
+.related_images_dx{
+	float:none;
+}
+.lateral_text, .lateral_text_sx{
+	padding-left:0;
+	padding-right:0;
+	margin:0;
+}
+.lateral_text h1, .lateral_text_sx h1{
+	margin-top:.5em;
+}
+.lateral_text_column{
+	margin:0px;
+}
+#incr_lateral{
+	margin:0px;
+}
+#mainDiv{
+	padding-top:40pt;
+	width:95%;
+	margin:auto;
+	min-width:0px;
+}
+#container{
+	padding-top:40pt;
+	width:95%;
+	margin:auto;
+	min-width:0px;
+}
+.mobile_Navigation{
+	padding:0 1em;
+	text-align:left;
+	display:block;
+}
+.mobile_Navigation a{
+	color:white;
+}
+.PC_Navigation{
+	display:none;
+}
+#menu{
+	display:none;
+}
+#nav-toggle { 
+	color:white;
+	position: absolute; 
+	left: 80%; 
+	top:0;
+	font-size:40pt;
+	line-height:32pt;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+#mobile_menu{
+	color:white;
+	line-height:32pt;
+}
+#menu{
+	z-index: 10;
+	position:absolute;
+	max-width:80%;
+}
+#cover{
+	z-index: 8;
+	position:fixed;
+	width:100%;
+	height:150%;
+	background:rgba(0,0,0,.5);
+	display:none;
+}
+#menu ul li{
+	   display: block;
+	   
+   }
+#menu ul li a{
+	background: #444;
+	border-color: #111111 #0a0a0a black;
+	background-image: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.4));
+	background-image: -moz-linear-gradient(top, transparent, rgba(0, 0, 0, 0.4));
+	background-image: -o-linear-gradient(top, transparent, rgba(0, 0, 0, 0.4));
+	background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.4));
+	-webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0 1px 1px rgba(0, 0, 0, 0.2);
+	box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+#menu ul li a:hover{
+	background: none;
+}
+
+.link_element > p{
+	display: block;
+	float:none;
+}
+.link_element > p > img{
+	max-width:1000px;
+}
+.link_element > div{
+	display: block;
+	vertical-align:auto;
+}

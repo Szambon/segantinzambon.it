@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+.tris{
+	text-align:center;
+}
+.tris > div{
+	margin:.5em;
+}
+
+.album_description{
+	max-width:250px;
+}
