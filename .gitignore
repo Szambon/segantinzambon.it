@@ -44,3 +44,11 @@ Temporary Items
 
 #password
 4eb712ac0c195316469261b39d07f09f.txt
+
+#immagini
+/Immagini/*
+/public/*
+/mdb-database/*
+/Gallery/*
+/images/*
+/Galleria/*
