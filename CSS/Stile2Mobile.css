@@ -59,7 +59,7 @@ img{
 #nav-toggle { 
 	color:white;
 	position: absolute; 
-	left: 80%; 
+	right: 1em; 
 	top:0;
 	font-size:40pt;
 	line-height:32pt;
