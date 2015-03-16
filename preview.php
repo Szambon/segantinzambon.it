@@ -48,11 +48,11 @@ window.AgMode = "publish";
 cellRolloverColor="#A1A1A1";
 cellColor="#949494";
 </script>
-<script type="text/javascript" src="./resources/js/live_update.js">
+<script async type="text/javascript" src="./resources/js/live_update.js">
 </script>
-<script type="text/javascript" src="Library/jquery.js">
+<script async type="text/javascript" src="Library/jquery.js">
 </script>
-<script type="text/javascript" src="Library/jquery.mobile.custom.min.js">
+<script async type="text/javascript" src="Library/jquery.mobile.custom.min.js">
 </script>
 <script type="text/javascript">
 $( document ).on( "swiperight", function(){

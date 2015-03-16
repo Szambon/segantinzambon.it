@@ -1,23 +1,27 @@
 @charset "utf-8";
 /* CSS Document */
-body{
-	background:#FFF;
+body {
+	background: #FFF;
 }
-.album_cell{
-	font-size:.8em;
-	width:410px;
-	display:inline-block;
-	max-width:95%;
-	
+.album_cell {
+	font-size: .8em;
+	width: 410px;
+	display: inline-block;
+	max-width: 95%;
 }
-.album_cell p{
-	font-style:italic;
+@media (max-width:750px) {
+.album_cell {
+	font-size: 1em;
 }
-.album_name{
-	font-style:normal;
-	font-weight:bold;
 }
-#container{
-	width:85%;
-	text-align:center;
+.album_cell p {
+	font-style: italic;
+}
+.album_name {
+	font-style: normal;
+	font-weight: bold;
+}
+#container {
+	width: 85%;
+	text-align: center;
 }

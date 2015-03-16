@@ -16,19 +16,20 @@ if(!isset($_POST['password']) || !isset($_POST['fold'])){
 	echo 1;
 }
 $password=trim($_POST['password']);
-$passad=trim(file_get_contents("./4eb712ac0c195316469261b39d07f09f.txt"));
+require('DBConnect.php');
+$result = $dbConnection->prepare('SELECT Password FROM PrivateAlbums WHERE Cartella IS NULL');
+$result->execute();
+$result = $result->fetch();
+$passad=$result['Password'];
 if(crypt($password, $passad)==$passad){
-	if($_POST['fold']!='Ad'){
-	if(isset($_POST['nuova'])){
-	file_put_contents("./Gallery/".$_POST['fold']."/Info/Password.txt", better_crypt(trim($_POST['nuova']))) or die(prob());}
-	file_put_contents("./Gallery/".$_POST['fold']."/Info/Nome.txt", $_POST['nome']) or die(prob());
-	file_put_contents("./Gallery/".$_POST['fold']."/Info/Didascalia.txt", $_POST['did'].'¦'.$_POST['sigla']) or die(prob());
-	echo 2;
+	if($_POST['fold']=='Ad'){
+		$_POST['fold'] = null;
 	}
-	else{
-	file_put_contents("./4eb712ac0c195316469261b39d07f09f.txt", better_crypt(trim($_POST['nuova']))) or die(prob());
-	echo 2;
-}
+	if(isset($_POST['nuova'])){
+		$result = $dbConnection->prepare("INSERT INTO PrivateAlbums (Nome, Didascalia, Sigla, Password, Cartella) VALUES (:nome, :didascalia, :sigla, :password, :cartella) ON DUPLICATE KEY UPDATE Nome = :nome2, Didascalia = :didascalia2, Sigla = :sigla2, Password = :password2", array(PDO::ATTR_CURSOR => PDO::CURSOR_FWDONLY));
+		$result->execute(array(':nome' => $_POST['nome'], ':didascalia' => $_POST['did'], ':sigla' => $_POST['sigla'], ':password' => better_crypt(trim($_POST['nuova'])), ':cartella' => $_POST['fold'], ':nome2' => $_POST['nome'], ':didascalia2' => $_POST['did'], ':sigla2' => $_POST['sigla'], ':password2' => better_crypt(trim($_POST['nuova']))));
+		echo 2;
+	}
 }
 else{
 echo 1;

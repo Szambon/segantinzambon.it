@@ -35,9 +35,11 @@ body{
 
 
 
-<script src="../Library/jquery.js"></script>
-<script src="../Library/jssor.slider.mini.js"></script>
-<script src="../js/Slider.js">
+<script async src="../Library/jquery.js"></script>
+<script async src="../Library/jssor.slider.mini.js"></script>
+<script async src="../js/mobilenav.js" type="text/javascript"></script>
+<script async src="/js/LanguageChange.js"></script>
+<script async src="../js/Slider.js">
 </script>
 </head>
 <body>

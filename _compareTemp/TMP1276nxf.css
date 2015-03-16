@@ -1,0 +1,458 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background:#929292;
+}
+
+*{
+	  margin:0;
+	  padding:0;
+  }
+
+.related_images{
+  	float:left;
+  }
+.lateral_text{
+  	padding: 1em;
+    margin-left: 290px;
+  }
+.related_images_dx{
+	   float:right;
+  }
+.related_images_center{
+    	padding:0.5em;
+  }
+.related_images2{
+	   position:relative;
+	   padding:2em;
+  }
+.lateral_text_sx{
+  	padding: 1em;
+    margin-right: 410px;
+  }
+.clear{
+  	display:block;
+  	clear:both;
+   }
+#container{
+	   padding: 1em;
+   		width:60%;
+		min-width:600px;
+        margin:auto;
+   }
+.lateral_text h1{
+   		font-size:1.3em;
+        text-decoration:underline;
+		margin-top:3em;
+   }
+.lateral_text p{
+   		margin-top: .2em;
+   }
+   
+.central_text{
+	   text-align:center;
+   }
+.central_text h1{
+   		font-size:1em;
+        text-decoration:underline;
+		margin-top:3em;
+   }
+.central_text p{
+   		margin-top: .2em;
+   }
+.lateral_text_sx h1{
+   		font-size:1.3em;
+        text-decoration:underline;
+		margin-top:3em;
+   }
+.lateral_text_sx p{
+   		margin-top: .2em;
+   }
+   
+#menu ul li{
+	   display: inline-block;
+	   margin: 0 .2em;
+	   line-height:50px;
+	   height: 50px;
+	   
+   }
+#menu ul{
+   }
+#menu{
+	   color:white;
+	   width: 100%;
+	   background:#666 url(../Immagini/X_Index/sfondo5.jpg) !important;
+	   text-align:center;
+	   margin:auto;
+   }
+#menu ul li a{
+	   color:#FFF;
+	   text-decoration:none;
+	   padding: 0 .5em;
+	   height:100%;
+	   display:block;
+   }
+#menu ul li a:hover{
+	  background: #444;
+border-color: #111111 #0a0a0a black;
+background-image: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.4));
+background-image: -moz-linear-gradient(top, transparent, rgba(0, 0, 0, 0.4));
+background-image: -o-linear-gradient(top, transparent, rgba(0, 0, 0, 0.4));
+background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.4));
+-webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0 1px 1px rgba(0, 0, 0, 0.2);
+box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0 1px 1px rgba(0, 0, 0, 0.2);
+   }
+#bread_crumbs{
+	color:white;
+	background:black;
+	background:rgba(0, 0, 0, 0.5);
+	padding:.5em 2em;
+	line-height:2em;
+	min-height:2em;
+}
+
+#bread_crumbs a{
+	color:white;
+}
+
+#bread_crumbs a:hover{
+	color:#999;
+}
+
+li.selected{
+	   color: #606060;
+	background: #fff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));
+	background: -moz-linear-gradient(top, #fff, #ededed);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed');
+	cursor:default;
+	padding: 0 .5em;
+   }
+.pair{
+	   margin-bottom:1em !important;
+   }
+.pair2{
+	   margin-top:3em !important;
+   }
+.testosito {
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:medium;
+	color:#333;
+	text-align:left;
+	padding-top:1em;
+}
+.strong_line{
+	margin:1em 0;
+}
+.testosito_img{
+	alignment-adjust:auto;
+	
+}
+.testosito_centre {
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:medium;
+	color:#333;
+	text-align:center;
+	padding-top:2em;
+	padding-bottom:2em;
+}
+.testosito_sotto {
+	margin:2em 0;
+	clear:both;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:medium;
+	color:#333;
+	text-align:center;
+}
+.testosito_index {
+	text-align:center;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:medium;
+	color:#333;
+	padding-bottom:1em;
+
+}
+.testositopiccolo2 {
+	padding-top:0em;
+	padding-bottom:5em;
+	text-align:center;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:small;
+	color: #333;
+
+}
+.testositopiccolo {
+	margin:2em 0;
+	clear:both;
+	padding:5em;
+	text-align:center;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:small;
+	color: #333;
+
+}
+.testositopiccoloB {
+	padding-top:2em;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:medium;
+	color:#FFFFFF;
+	text-align:left;
+
+}
+.testositopiccolorosso {
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:medium;
+	color:#F00
+	font-style:italic;
+
+}
+.tris{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:medium;
+	color:#333;
+	text-align:center;
+	margin:auto;
+}
+.tris > div{
+	min-height:150px;
+	min-width:200px;
+	max-width:250px;
+	text-align:center;
+	margin:1em 5px;
+	display:inline-block;
+}
+.img p{
+	padding:0.5;
+}
+.p img{
+	padding-top:2em;
+}
+
+.citazioni {
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:medium;
+	color: #333;
+	font-style:italic;
+}
+.not_underlined_text{
+	text-decoration:none;
+}
+.xbarra {
+	font-size:smaller;
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	
+
+}
+
+.img_center{
+	float:none;
+	padding:1em;
+	alignment-adjust:central;
+}
+
+.testoinfobiancodx{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size:small;
+	color:#000000;
+	text-align: right;
+	font-style:italic;
+
+}
+.testositopiccolo p strong {
+	
+	color: #FFF;
+}
+.testoinfobiancodx {
+	color: #FFF;
+}
+
+#mainDiv{
+	width:70%;
+	padding:1em;
+	padding-bottom:3em;
+	margin:auto;
+}
+.centre{
+	text-align:center;
+	padding-top:2em;
+}
+.testoerr {
+	color: #FF3D00;
+	text-align: left;
+	width: 70%;
+	padding: .1em;
+	display: none;
+	background: #DBDBDB;
+	}
+	 
+.img{
+	float:left;
+}
+.img img{
+	margin: 1em 0;
+	display: block;
+}
+.lateral_text_column{
+	padding-top: 1.5em;
+	margin-left: 320px;
+}
+.lateral_text_column p{
+	margin:2em 0;
+}
+
+
+.ajax_overlay {}
+.ajax_loader {background: url("spinner_squares_circle.gif") no-repeat center center transparent;width:100%;height:100%;}
+
+
+.logo_rosa{
+	vertical-align:middle;
+}
+#language{
+	float:right;
+}
+
+
+.dropdown {
+	vertical-align:middle;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  width: 10em;
+  background: #f2f2f2;
+  border: 1px solid;
+  border-color: white #f7f7f7 whitesmoke;
+  border-radius: 3px;
+  background-image: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.06));
+  background-image: -moz-linear-gradient(top, transparent, rgba(0, 0, 0, 0.06));
+  background-image: -o-linear-gradient(top, transparent, rgba(0, 0, 0, 0.06));
+  background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.06));
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+}
+
+.dropdown:before, .dropdown:after {
+  content: '';
+  position: absolute;
+  z-index: 2;
+  top: 9px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 4px dashed;
+  border-color: #888888 transparent;
+  pointer-events: none;
+}
+
+.dropdown:before {
+  border-bottom-style: solid;
+  border-top: none;
+}
+
+.dropdown:after {
+  margin-top: 7px;
+  border-top-style: solid;
+  border-bottom: none;
+}
+
+.dropdown-select {
+  position: relative;
+  width: 130%;
+  margin: 0;
+  padding: 6px 8px 6px 10px;
+  color: #62717a;
+  text-shadow: 0 1px white;
+  background: #f2f2f2; /* Fallback for IE 8 */
+  background: rgba(0, 0, 0, 0) !important; /* "transparent" doesn't work with Opera */
+  border: 0;
+  border-radius: 0;
+  -webkit-appearance: none;
+}
+
+.dropdown-select:focus {
+  z-index: 3;
+  width: 100%;
+  color: #394349;
+  outline: 2px solid #49aff2;
+  outline: 2px solid -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+.dropdown-select > option {
+  margin: 3px;
+  padding: 6px 8px;
+  text-shadow: none;
+  background: #f2f2f2;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Fix for IE 8 putting the arrows behind the select element. */
+
+.lt-ie9 .dropdown {
+  z-index: 1;
+}
+
+.lt-ie9 .dropdown-select {
+  z-index: -1;
+}
+
+.lt-ie9 .dropdown-select:focus {
+  z-index: 3;
+}
+
+/* Dirty fix for Firefox adding padding where it shouldn't. */
+
+@-moz-document url-prefix() {
+  .dropdown-select {
+    padding-left: 6px;
+  }
+}
+
+.dropdown-dark {
+  background: #444;
+  border-color: #111111 #0a0a0a black;
+  background-image: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.4));
+  background-image: -moz-linear-gradient(top, transparent, rgba(0, 0, 0, 0.4));
+  background-image: -o-linear-gradient(top, transparent, rgba(0, 0, 0, 0.4));
+  background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.4));
+  -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-dark:before {
+  border-bottom-color: #aaa;
+}
+
+.dropdown-dark:after {
+  border-top-color: #aaa;
+}
+
+.dropdown-dark .dropdown-select {
+  color: #aaa;
+  text-shadow: 0 1px black;
+  background: #444;  /* Fallback for IE 8 */
+}
+
+.dropdown-dark .dropdown-select:focus {
+  color: #ccc;
+}
+
+.dropdown-dark .dropdown-select > option {
+  background: #444;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.4);
+}
+
+.mobile_Navigation{
+	display:none;
+}
+@media (min-width:751px) {
+	#menu{
+		display:block !important;
+	}
+	#cover{
+		display:none !important;
+	}
+}

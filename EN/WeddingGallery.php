@@ -28,6 +28,7 @@ $menu = '<div id="mobile_menu" class="mobile_Navigation">
     <a href="../">Home</a> &raquo;
 		<a href="Gallery.htm">Gallery</a> &raquo;
         <span>Wedding Gallery</span>
+    <div class="related_images_dx"><label for="language_picker">Language: </label><div class="dropdown dropdown-dark"><select id="language_picker" class="dropdown-select"><option value="IT">IT</option><option value="EN" selected>EN</option></select></div></div>
 </div>';
 setUpSlideShow($images, 'en', 'Wedding Photos', '', $menu );
 ?>
