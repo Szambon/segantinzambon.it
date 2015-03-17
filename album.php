@@ -86,7 +86,7 @@ cellColor="#949494";
 </head>
 
 
-<body>
+<body  vocab="http://schema.org/">
 
 
 <div id="wrapper_thumb">

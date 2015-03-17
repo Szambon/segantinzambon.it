@@ -73,7 +73,7 @@ $( document ).on( "swipeleft", function(){
 </head>
 
 
-<body>
+<body  vocab="http://schema.org/">
 
 
 <div id="wrapper_large">

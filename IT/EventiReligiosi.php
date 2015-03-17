@@ -24,10 +24,10 @@ $menu = '<div id="mobile_menu" class="mobile_Navigation">
 			</ul>
 		</div>
 
-<div id="bread_crumbs" class="PC_Navigation">
-    <a href="../">Home</a> &raquo;
-		<a href="EventiCongressiVeneziaLido.htm">Eventi Congressi</a> &raquo;
-        <span>Eventi Religiosi</span>
+<div xmlns:v="http://rdf.data-vocabulary.org/#" id="bread_crumbs" class="PC_Navigation">
+			<span typeof="v:Breadcrumb"><a href="../" rel="v:url" property="v:title">Home</a> &raquo;</span>
+		<span typeof="v:Breadcrumb"><a href="EventiCongressiVeneziaLido.htm" rel="v:url" property="v:title">Eventi Congressi</span></span> &raquo;
+        <span typeof="v:Breadcrumb"><span href="." rel="v:url" property="v:title">Eventi Religiosi</span></span>
     <div class="related_images_dx"><label for="language_picker">Language: </label><div class="dropdown dropdown-dark"><select id="language_picker" class="dropdown-select"><option value="IT" selected>IT</option><option value="EN">EN</option></select></div></div>
 </div>';
 setUpSlideShow($images, 'it', 'Foto di Eventi Religiosi', '', $menu );

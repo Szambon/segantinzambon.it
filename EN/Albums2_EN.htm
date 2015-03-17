@@ -3,7 +3,7 @@
 <head>
 <title>wedding photo, wedding photo album in Venice, wedding photographer in Venice for your wedding photo album in Venice
 </title>
-<link rel="shortcut icon" href="../images/faricon1.ico"/>
+<link rel="icon" type="image/x-icon"  href="../images/faricon1.ico"/>
 
 <link href="../CSS/Stile2.css" rel="stylesheet" type="text/css" />
 <link href="../CSS/StileAlbumW.css" rel="stylesheet" type="text/css" />
@@ -17,7 +17,7 @@
 
 </head>
 
-<body>
+<body  vocab="http://schema.org/">
 <div id="menu" >
 <ul>
     	<li ><a href="../">Home</a></li>
@@ -33,10 +33,10 @@
     	<li><a href="Contact_us.htm">Contact us</a></li>
     </ul>
 </div>
-<div id="bread_crumbs" class="PC_Navigation">
-    <a href="../">Home</a> &raquo;
-    <a href="PhotoAlbum.htm">Album</a> &raquo;
-    <span>Wedding Albums</span>
+<div xmlns:v="http://rdf.data-vocabulary.org/#" id="bread_crumbs" class="PC_Navigation">
+			<span typeof="v:Breadcrumb"><a href="../" rel="v:url" property="v:title">Home</a> &raquo;</span>
+    <span typeof="v:Breadcrumb"><a href="PhotoAlbum.htm" rel="v:url" property="v:title">Album</a></span> &raquo;
+    <span typeof="v:Breadcrumb"><span href="." rel="v:url" property="v:title">Wedding Albums</span></span>
     <div class="related_images_dx"><label for="language_picker">Language: </label><div class="dropdown dropdown-dark"><select id="language_picker" class="dropdown-select"><option value="IT">IT</option><option value="EN" selected>EN</option></select></div></div>
 </div>
 <div id="container" class="testosito">

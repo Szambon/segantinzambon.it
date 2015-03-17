@@ -5,18 +5,18 @@
 <title>Wedding photography in Venice, Wedding Photo Album in Venice, Album of marriage in Venice, Padova, Verona, Treviso, Vicenza.</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" href="../images/faricon1.ico">
+<link rel="icon" type="image/x-icon"  href="../images/faricon1.ico">
 <link href="../CSS/Stile2.css" rel="stylesheet" type="text/css" />
 <link href="../CSS/Stile2Mobile.css" media="(max-width: 750px)" rel="stylesheet" type="text/css" />
 
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <meta name="description" content=" Wedding photographer studio in Venice specialized on wedding Photo Album and Album of marriage in Venice. Love in photography in Venice. Photo of Wedding, our passion, in Venice ">
 <meta name="keywords" content="Venice, wedding, photographer, photowedding, photojournalism, Album in Venice, Photo Album in Venice, Wedding Album in Venice, Album of marriage in Venice, Wedding Album, Album of Marriage, Wedding in Venice, Photo of wedding in venice, Wedding photographer, Wedding photographer in Venice, Wedding Photo in Venice, Wedding Photo Album in Venice, Venice Photography, Italian Wedding Photographer in Venice, Photographer of marriage in Venice.">
- <script async type="text/javascript" src="../Library/jquery.js"></script>
+ <script type="text/javascript" src="../Library/jquery.js"></script>
 <script async src="../js/mobilenav.js" type="text/javascript"></script>
 <script async src="/js/LanguageChange.js"></script>
 </head>
-<body>
+<body  vocab="http://schema.org/">
 <span id="cover"></span>
     <div id="mobile_menu" class="mobile_Navigation">
         <a href="../">Home</a> &raquo;
@@ -40,9 +40,9 @@
     	<li><a href="Contact_us.htm">Contact us</a></li>
     </ul>
 </div>
-<div id="bread_crumbs" class="PC_Navigation">
-    <a href="../">Home</a> &raquo;
-    <span>Album</span>
+<div xmlns:v="http://rdf.data-vocabulary.org/#" id="bread_crumbs" class="PC_Navigation">
+			<span typeof="v:Breadcrumb"><a href="../" rel="v:url" property="v:title">Home</a> &raquo;</span>
+    <span typeof="v:Breadcrumb"><span href="." rel="v:url" property="v:title">Album</span></span>
     <div class="related_images_dx"><label for="language_picker">Language: </label><div class="dropdown dropdown-dark"><select id="language_picker" class="dropdown-select"><option value="IT">IT</option><option value="EN" selected>EN</option></select></div></div>
 </div>
 <div id="container" class="testosito">
@@ -63,28 +63,28 @@
 	 </div>
      <div class="tris">
         <div><a href="Albums2_EN.htm" >
-        		<img src="../Immagini/Album/Albums.jpg" alt="Album Matrimoniali Classici e Moderni" width="250" height="250">
+        		<img typeof="Photograph" about="../Immagini/Album/Albums.jpg" src="../Immagini/Album/Albums.jpg" alt="Album Matrimoniali Classici e Moderni" width="250" height="250" rel="author" href="/EN/About_us.htm#SegantineZambon"/>
              </a>
              <div class="album_description">
-             	<a href="Albums2.htm" class="citazioni">Classic and Modern Wedding Album  
+             	<a href="Albums2_EN.htm" class="citazioni">Classic and Modern Wedding Album  
         	 	</a>
        		 </div>
         </div>
         <div><a href="WedAlb4.php" >
-        		<img src="../Galleria/Albums/Nicola_Alice_Gabriel/images/copertinaperalbum20x20.jpg" width="250" alt="Photo Album Example" height="250">
+        		<img typeof="Photograph" about="../Galleria/Albums/Nicola_Alice_Gabriel/images/copertinaperalbum20x20.jpg" src="../Galleria/Albums/Nicola_Alice_Gabriel/images/copertinaperalbum20x20.jpg" width="250" alt="Photo Album Example" height="250" rel="author" href="/EN/About_us.htm#SegantineZambon"/>
        		 </a>
              <div class="album_description">
-             	<a href="../Galleria/Albums/Nicola%20Alice%20Gabriel/index.html" target="_blank" class="citazioni">Sample Layout 
+             	<a href="WedAlb4.php" target="_blank" class="citazioni">Sample Layout 
 Wedding photo album 
 
             	</a>
              </div>
         </div>
         <div><a href="WedAlb5.php">
-       			 <img src="../Galleria/Albums/DanieleNastinka/images/Copertinapiccola.jpg" alt="Photo Album Example" width="250" height="250" >
+       			 <img typeof="Photograph" about="../Galleria/Albums/DanieleNastinka/images/Copertinapiccola.jpg" src="../Galleria/Albums/DanieleNastinka/images/Copertinapiccola.jpg" alt="Photo Album Example" width="250" height="250"  rel="author" href="/EN/About_us.htm#SegantineZambon"/>
         	 </a>
              <div class="album_description">
-             	<a href="../Galleria/Albums/DanieleNastinka/index.html" target="_blank" class="citazioni">Sample Layout 
+             	<a href="WedAlb5.php" target="_blank" class="citazioni">Sample Layout 
 Wedding photo album 
 
          	 	</a>
@@ -92,10 +92,12 @@ Wedding photo album
         </div>
     </div>
 </div>
-      
-<div class="testositopiccolo">Personal Photographer in Venice  - Wedding Photographer in Venice
-    <p>Segantin e Zambon Tel e Fax +39 041 5260281 Via Sandro Gallo 149/A - 30126 Lido di Venezia <br />
-      P.Iva 02101550271 <a href="mailto:foto@segantinzambon.it ">foto@segantinzambon.it</a></p>
-</div>          
+      <div class="testositopiccolo" about="/EN/About_us.htm#SegantineZambon" typeof="Organization">
+			  <p>Foto e fotografo a Venezia- Wedding Photographer in Venice</p>
+				<p><span property="name">Segantin 
+				  e Zambon</span> Tel e Fax <span property="telephone">+39 041 5260281</span> <span rel="address" typeof="PostalAddress"><span property="streetAddress">Via Sandro Gallo 149/A</span> - <span property="postalCode">30126</span> <span property="addressLocality">Lido di Venezia</span></span> <br />
+				  P.Iva 
+				  <span property="isicV4">02101550271</span> <a href="mailto:foto@segantinzambon.it" property="email">foto@segantinzambon.it</a></p>
+			 </div>    
 </body>
 </html>
