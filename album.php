@@ -3,11 +3,41 @@
 <head>
 
 <? session_start();
+$location = $_SESSION['lang'];
+if(!$location)
+{
+	$location = "IT";
+}
 if(!isset($_SESSION['album'])){
 	$_SESSION['err']=1;
-	header('Location:Galleria.htm');
+	if($location == "EN")
+	{
+		header('Location: /EN/Gallery.htm');
+	}
+	else{
+		header('Location: /IT/Galleria.htm');
+	}
 }
+switch($location)
+{
+	case "EN":
+		$precedente = "Previous";
+		$successivo = "Next";
+		$esci = "Exit";
+		break;
+	case "IT":
+	default:
+		$precedente = "Precendete";
+		$successivo = "Successivo";
+		$esci = "Esci";
+		break;
+}
+
+require('DBConnect.php');
 $album=$_SESSION['album'];
+$result = $dbConnection->prepare("SELECT * FROM PrivateAlbums WHERE Cartella = :album", array(PDO::ATTR_CURSOR => PDO::CURSOR_FWDONLY));
+$result->execute(array(':album' => $album));
+$result = $result->fetch();
 function serve($image_id) {
 	$actual_path_to_image='./Gallery/'.$album.'/Galleria/thumb'.$image_id;
   header('Content-Type: image/jpeg');
@@ -15,13 +45,9 @@ function serve($image_id) {
 } 
 if(!isset($_GET['pag']))$pag=0;
 else $pag=$_GET['pag'];
-$did=file_get_contents("./Gallery/$album/Info/Didascalia.txt");
-if(!$did) die("Errore di caricamento contatta l'amministratore.");
-$nome=file_get_contents("./Gallery/$album/Info/Nome.txt");
-if(!$nome) die("Errore di caricamento contatta l'amministratore.");
-$pos = strpos($did, '¦');
-$sig= substr($did, $pos+2);
-$sig2= substr($did, 0, $pos);
+$nome=$result['Nome'];
+$sig= $result['Sigla'];
+$sig2= $result['Didascalia'];
 $dirimm = opendir('./Gallery/'.$album.'/Galleria/thumb')or die("Errore di caricamento contatta l'amministratore.");
 $immagini=array();
 $quanti=0;
@@ -50,9 +76,9 @@ window.AgMode = "publish";
 cellRolloverColor="#A1A1A1";
 cellColor="#949494";
 </script>
-<script type="text/javascript" src="resources/js/live_update.js">
+<script async type="text/javascript" src="resources/js/live_update.js">
 </script>
-<script type="text/javascript" src="resources/js/jquery.js">
+<script async type="text/javascript" src="resources/js/jquery.js">
 </script>
 <!--[if lt IE 7.]> <script defer type="text/javascript" src="./resources/js/pngfix.js"></script> <![endif]-->
 <!--[if gt IE 6]> <link rel="stylesheet" href="./resources/css/ie7.css"></link> <![endif]-->
@@ -60,7 +86,7 @@ cellColor="#949494";
 </head>
 
 
-<body>
+<body  vocab="http://schema.org/">
 
 
 <div id="wrapper_thumb">
@@ -329,15 +355,15 @@ cellColor="#949494";
                   <? if($pag+3<$pagmax){?><li class="textColor"> <a href="album.php?pag=<? echo $pag+3;?>"><? echo $pag+4;?></a> </li><? }?>
                   <? if($pag+4<$pagmax){?><li class="textColor"> <a href="album.php?pag=<? echo $pag+4;?>"><? echo $pag+5;?></a> </li><? }?>
                   <? if($pag+5<$pagmax){?><li class="textColor"> <a href="album.php?pag=<? echo $pag+5;?>"><? echo $pag+6;?></a> </li><? }?>
-                			      <li class="previous textColor"><? if($pag-1>=0){?> <a class="paginationLinks" href="album.php?pag=<? echo $pag-1;?>">Precedente</a><? }else{?>  Precedente<? }?> </li>
-							      <li class="next textColor"> <? if($pag+1<$pagmax){?><a class="paginationLinks" href="album.php?pag=<? echo $pag+1;?>">Successivo</a><? }else{?>Successivo<? }?> </li>
+                			      <li class="previous textColor"><? if($pag-1>=0){?> <a class="paginationLinks" href="album.php?pag=<? echo $pag-1;?>"><? echo $precedente;?></a><? }else{ echo $precedente; }?> </li>
+							      <li class="next textColor"> <? if($pag+1<$pagmax){?><a class="paginationLinks" href="album.php?pag=<? echo $pag+1;?>"><? echo $successivo;?></a><? }else{echo $successivo; }?> </li>
 				          </ul>
   </div>
 
   
   <div id="contact">
-          <a href="slog.php"> <span
-        class="textColor" id="metadata.contactInfo.value">Esci</span>
+          <a href="slog.php?lang=<? echo $location;?>"> <span
+        class="textColor" id="metadata.contactInfo.value"><? echo $esci;?></span>
           </a>
       </div>
   <div class="clear">

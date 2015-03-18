@@ -18,7 +18,7 @@ function setUpSlideShow($img_array, $lang, $title, $desc, $menu){
 <head>
 <title><? echo $title;?></title>
 
-<link rel="shortcut icon" href="../images/faricon1.ico"/>
+<link rel="icon" type="image/x-icon"  href="../images/faricon1.ico"/>
 <link href="../CSS/Stile2.css" rel="stylesheet" type="text/css"/>
 <style type="text/css">
 body{
@@ -35,12 +35,14 @@ body{
 
 
 
-<script src="../Library/jquery.js"></script>
-<script src="../Library/jssor.slider.mini.js"></script>
-<script src="../js/Slider.js">
+<script async src="../Library/jquery.js"></script>
+<script async src="../Library/jssor.slider.mini.js"></script>
+<script async src="../js/mobilenav.js" type="text/javascript"></script>
+<script async src="/js/LanguageChange.js"></script>
+<script async src="../js/Slider.js">
 </script>
 </head>
-<body>
+<body  vocab="http://schema.org/">
 <span id="cover"></span>
 <? echo $menu;?>
 <div id="container">

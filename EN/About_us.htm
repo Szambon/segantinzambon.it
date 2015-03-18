@@ -1,13 +1,13 @@
 <!DOCTYPE HTML >
-<html lang="en">
-<html>
+<html prefix="dbp-owl: http://dbpedia.org/ontology/" lang="en">
 <head>
 <title>Wedding Photo in Venice, Wedding Photographer in Venice, Venice Wedding Photographic service</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" href="../images/faricon1.ico">
+<link rel="icon" type="image/x-icon"  href="../images/faricon1.ico">
 <link href="../CSS/Stile2.css" rel="stylesheet" type="text/css" />
 <link href="../CSS/Stile2Mobile.css" media="(max-width: 750px)" rel="stylesheet" type="text/css" />
+<link rel="alternate" hreflang="it" href="/IT/FotografoMatrimonioVenezia.htm"/>
 
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <META NAME="description" CONTENT="We are two professional wedding photographers in Venice specialised on wedding photography in Venice and Italy for your fantastic wedding photos in Venice.">
@@ -19,9 +19,10 @@ your Wedding in Venice, your Wedding Photographer in Venice, your wedding photog
 Album in Venice, Photo in Venice, Wedding Photo Album in Venice, Venice Photography, Italian Wedding Photographer in Venice,
 Photographer of marriage in Venice, Venice Wedding Photographer.">
 <script type="text/javascript" src="../Library/jquery.js"></script>
-<script src="../js/mobilenav.js" type="text/javascript"></script>
+<script async src="../js/mobilenav.js" type="text/javascript"></script>
+<script async src="/js/LanguageChange.js"></script>
 </head>
-<body>
+<body  vocab="http://schema.org/">
 <span id="cover"></span>
     <div id="mobile_menu" class="mobile_Navigation">
         <a href="../">Home</a> &raquo;
@@ -45,14 +46,15 @@ Photographer of marriage in Venice, Venice Wedding Photographer.">
     	<li><a href="Contact_us.htm">Contact us</a></li>
     </ul>
 </div>
-<div id="bread_crumbs" class="PC_Navigation">
-    <a href="../">Home</a> &raquo;
-    <span>About us</span>
+<div xmlns:v="http://rdf.data-vocabulary.org/#" id="bread_crumbs" class="PC_Navigation">
+			<span typeof="v:Breadcrumb"><a href="../" rel="v:url" property="v:title">Home</a> &raquo;</span>
+    <span typeof="v:Breadcrumb"><span href="." rel="v:url" property="v:title">About us</span></span>
+    <div class="related_images_dx"><label for="language_picker">Language: </label><div class="dropdown dropdown-dark"><select id="language_picker" class="dropdown-select"><option value="IT">IT</option><option value="EN" selected>EN</option></select></div></div>
 </div>
 <div id="container" class="testosito">
 
       <div class="pair">
-        <img class="related_images" src="../Immagini/Wedding_in_Venice_Photo2.jpg" width="283" height="413" alt="Wedding in Venice">		 			<div class="lateral_text">
+        <img typeof="Photograph" about="../Immagini/Wedding_in_Venice_Photo2.jpg" class="related_images" src="../Immagini/Wedding_in_Venice_Photo2.jpg" width="283" height="413" alt="Wedding in Venice" rel="author" href="/EN/About_us.htm#SegantineZambon"/>		 			<div class="lateral_text">
         		<h1>Emotionally closer to the Spouses. </h1>
        	 		<p>
                 We like to be "close" to the spouses and to what happens in that particular family event in order to enter into communication with what we want to communicate with the photography. So we live the wedding as guests but with discretion. 
@@ -61,27 +63,29 @@ Photographer of marriage in Venice, Venice Wedding Photographer.">
         <span class="clear"></span>
       </div>
       
-      <div class="pair">
-        <img class="related_images" src="../Immagini/ritratto%20Gianfranco.jpg" alt="Gianfranco Segantin" title="Gianfranco" width=	 	 		"283" height="413" id="Gianfranco">
-        <div class="lateral_text">
-            <h1>Gianfranco Segantin</h1>
-            <p>He is a TAU VISUAL and ANFM  professional photographer for weddings, born on 12/19/1959 in Lido di Venezia. He began his photographic experience thanks to his family's cameras. In the following years he took numerous courses, studies, workshops and updates, in Italy and abroad, to refine his photography in general and then to specilize in Marriage and portrait. 
+      <div class="pair" typeof="Person" id="Gianfranco" resource="#Gianfranco" sameAs="/IT/FotografoMatrimonioVenezia.htm#Gianfranco">
+			  	<span rel="additionalType" href="dbp-owl:Photographer"></span>
+				<img property="image" class="related_images" src="../Immagini/ritratto%20Gianfranco.jpg" alt="Gianfranco Segantin" title="Gianfranco" width="283" height="413" />
+				<div class="lateral_text">
+					<h1 property="name">Gianfranco Segantin</h1>
+            <p>He is a TAU VISUAL and ANFM  <span property="jobTitle">professional photographer</span> for weddings, born on <span property="birthDate" content="1959-12-19">12/19/1959</span> in <span property="birthPlace" typeof="Place" href="http://dbpedia.org/resource/Lido_di_Venezia">Lido di Venezia</span>. He began his photographic experience thanks to his family's cameras. In the following years he took numerous courses, studies, workshops and updates, in Italy and abroad, to refine his photography in general and then to specilize in Marriage and portrait. 
 He is a lover of family, music, animals and nature.
 </p>
         </div>
         <span class="clear"></span>
       </div>
       
-      <div class="pair">
-      	<img class="related_images" src="../Immagini/ritratto_Sara.jpg" alt="Sara Zambon" title="Sara" width="283" height="401" id="Sara">
-      
-       <div class="lateral_text">
-        	<h1>Sara Zambon, </h1> 
-       		<p>TAU VISUAL professional photographer for Wedding, born on 05/13/1967 in Milan. 
-After art school she began working in the field of photography with Gianfranco, so in 1984 borns the company Segantin and Zambon. 
+      <div class="pair"typeof="Person" id="Sara" resource="#Sara" sameAs="/IT/FotografoMatrimonioVenezia.htm#Sara">
+			  	<span rel="additionalType" href="dbp-owl:Photographer"></span>
+				<img property="image" class="related_images" src="../Immagini/ritratto_Sara.jpg" alt="Sara Zambon" title="Sara" width="283" height="401"/>
+			  
+			   <div class="lateral_text">
+					<h1 property="name">Sara Zambon, </h1> 
+       		<p>TAU VISUAL <span property="jobTitle">professional photographer</span> for Wedding, born on <span property="birthDate" content="1967-05-13">05/13/1967</span> in <span rel="birthPlace" typeof="Place" href="http://dbpedia.org/resource/Milan">Milan</span>. 
+<span typeof="Organization" resource="#SegantineZambon" sameAs="/IT/FotografoMatrimonioVenezia.htm#SegantineZambon">After art school she <span rel="founder" href="#Sara">began working</span> in the field of photography with <span rel="founder" href="#Gianfranco">Gianfranco</span>, so in <span property="foundingDate">1984</span> borns the company <span property="name">Segantin and Zambon</span></span>. 
 Sara performs photographic studies and workshops in Italy and abroad, she follows also some updates about Wedding photography.  She keeps improving her skills in: advanced applications of Photoshop, portraiture, painting. 
 She loves children and nature, continues to cultivate a passion for graphic art and photographic art addressed to the social, portraits of children, but especially for marriage. 
-Gianfranco and Sara were married in 1987 and are the parents of four magic children: Claudia, Fabio, Elizabeth, Erica. 
+<span rel="spouse" href="#Gianfranco">Gianfranco</span> and <span about="#Gianfranco"><span rel="spouse" href="#Sara">Sara</span></span> were married in 1987 and are the parents of four magic children: <span property="children" typeof="Person"><span property="givenName">Claudia</span></span>, <span property="children" typeof="Person"><span property="givenName">Fabio</span></span>, <span property="children" typeof="Person"><span property="givenName">Elisabetta</span></span>, <span property="children" typeof="Person"><span property="givenName">Erica</span></span>. 
  </p>   
          </div>
          <span class="clear"></span>
@@ -89,7 +93,7 @@ Gianfranco and Sara were married in 1987 and are the parents of four magic child
       
       <div class="pair2">
       
-      	 <img class="related_images_dx" src="../Immagini/Filosofo.jpg" width="400" height="542" alt="Filosofo">
+      	 <img typeof="Photograph" about="../Immagini/Filosofo.jpg" class="related_images_dx" src="../Immagini/Filosofo.jpg" width="400" height="542" alt="Filosofo" rel="author" href="/EN/About_us.htm#SegantineZambon"/>
 		<div class="lateral_text_sx">
       		<h1>
 				What excitement to take pictures! 
@@ -106,7 +110,7 @@ For this reason we get involved emotionally from the photos we do because, other
       </div>
       
       <div class="pair2">
-      	<img class="related_images_dx" src="../Immagini/Pregnancy.jpg" width="400" height="547" alt="Pregnancy">
+      	<img typeof="Photograph" about="../Immagini/Pregnancy.jpg" class="related_images_dx" src="../Immagini/Pregnancy.jpg" width="400" height="547" alt="Pregnancy" rel="author" href="/EN/About_us.htm#SegantineZambon"/>
      	<div class="lateral_text_sx">
         	<h1>To make himself alike to see</h1>
 			<p>Plotinus: "To any vision must be brought an eye adapted to what is to be seen, and having some likeness to it. Never did eye see the sun unless it had first become sunlike, and never can the soul have vision of the First Beauty unless itself be beautiful. "Enneadi- 250d.c. </p>
@@ -123,21 +127,21 @@ Then he limits his horizon to the point that he can't catch the essential. "J.R.
     <div class="central_text">
        	<h1>Our Family:</h1>
       	<p>1999</p>
-        <img class="related_images2" src="../Immagini/Famiglia_1999.jpg" width="600" height="409" alt="Famiglia Segantin 1999">
+        <img typeof="Photograph" about="../Immagini/Famiglia_1999.jpg" class="related_images2" src="../Immagini/Famiglia_1999.jpg" width="600" height="409" alt="Famiglia Segantin 1999" rel="author" href="/EN/About_us.htm#SegantineZambon"/>
     </div>
 	<div class="central_text">	
         <p>Today</p>	
-        <img class="related_images2" src="../Immagini/Famiglia_Segantin.jpg" width="600" height="440" alt="foto famiglia">
+        <img typeof="Photograph" about="../Immagini/Famiglia_Segantin.jpg" class="related_images2" src="../Immagini/Famiglia_Segantin.jpg" width="600" height="440" alt="foto famiglia" rel="author" href="/EN/About_us.htm#SegantineZambon"/>
     </div>
       
    
-      <div class="testositopiccolo">
-      <p>Foto e fotografo a Venezia- Wedding Photographer in Venice</p>
-        <p>Segantin 
-          e Zambon Tel e Fax +39 041 5260281 Via Sandro Gallo 149/A - 30126 Lido di Venezia <br />
-          P.Iva 
-          02101550271 <a href="mailto:foto@segantinzambon.it ">foto@segantinzambon.it</a></p>
- 	 </div>
+      <div class="testositopiccolo" about="/EN/About_us.htm#SegantineZambon" typeof="Organization">
+			  <p>Foto e fotografo a Venezia- Wedding Photographer in Venice</p>
+				<p><span property="name">Segantin 
+				  e Zambon</span> Tel e Fax <span property="telephone">+39 041 5260281</span> <span rel="address" typeof="PostalAddress"><span property="streetAddress">Via Sandro Gallo 149/A</span> - <span property="postalCode">30126</span> <span property="addressLocality">Lido di Venezia</span></span> <br />
+				  P.Iva 
+				  <span property="isicV4">02101550271</span> <a href="mailto:foto@segantinzambon.it" property="email">foto@segantinzambon.it</a></p>
+			 </div>
      </div>
 </body>
 </html>

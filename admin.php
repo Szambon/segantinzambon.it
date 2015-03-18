@@ -11,7 +11,7 @@ session_start();
 <title>Admin</title>
 <link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="resources/css/custom.css" >
 <link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="resources/css/master.css" >
-<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+<script async type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
 <script type="text/javascript">
 	var dragged=false;
 	var mouseX=0;
@@ -110,7 +110,7 @@ select{
 		if(obj.value!='prova'){
 		$.ajax({
 type: "POST",
-data: {'dove':obj.value, 'cosa':'Nome.txt'},
+data: {'dove':obj.value, 'cosa':'Nome'},
 url: "caricainfo.php",
 success: function(msg){
 	$('#nome').val(msg);
@@ -118,12 +118,19 @@ success: function(msg){
 });
 	$.ajax({
 type: "POST",
-data: {'dove':obj.value, 'cosa':'Didascalia.txt'},
+data: {'dove':obj.value, 'cosa':'Didascalia'},
 url: "caricainfo.php",
 success: function(msg){
-	var messaggio=msg.split("¦")
-	$('#did').val(messaggio[0]);
-	$('#sigla').val(messaggio[1]);
+	$('#did').val(msg);
+}
+});
+
+	$.ajax({
+type: "POST",
+data: {'dove':obj.value, 'cosa':'Sigla'},
+url: "caricainfo.php",
+success: function(msg){
+	$('#sigla').val(msg);
 }
 });
 if(obj.value=='Ad'){ 
@@ -181,7 +188,7 @@ window.AgMode = "publish";
 cellRolloverColor="#A1A1A1";
 cellColor="#949494";
 </script>
-<script type="text/javascript" src="resources/js/live_update.js">
+<script async type="text/javascript" src="resources/js/live_update.js">
 </script>
 
 
