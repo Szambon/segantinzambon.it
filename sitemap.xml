@@ -1,418 +1,277 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-	  xmlns:xhtml="http://www.w3.org/1999/xhtml"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+	<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-<url>
-  <loc>http://www.segantinzambon.it/</loc>
-  <lastmod>2015-03-11T17:50:45+00:00</lastmod>
-  <changefreq>yearly</changefreq>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>http://www.segantinzambon.it/IT/FotografoMatrimonioVenezia.htm</loc>
-  <lastmod>2015-03-15T20:13:38+00:00</lastmod>
-  <changefreq>yearly</changefreq>
-  <priority>0.80</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="en"
-                 href="http://www.segantinzambon.it/EN/About_us.htm"
-                 />
-</url>
-<url>
-  <loc>http://www.segantinzambon.it/EN/About_us.htm</loc>
-  <lastmod>2015-03-16T15:23:22+00:00</lastmod>
-  <changefreq>yearly</changefreq>
-  <priority>0.80</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="it"
-                 href="http://www.segantinzambon.it/IT/FotografoMatrimonioVenezia.htm"
-                 />
-</url>
-<url>
-  <loc>http://www.segantinzambon.it/IT/FAQ.html</loc>
-  <lastmod>2015-03-15T20:13:37+00:00</lastmod>
-  <changefreq>yearly</changefreq>
-  <priority>0.64</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="en"
-                 href="http://www.segantinzambon.it/EN/FAQ_EN.html"
-                 />
-</url>
-<url>
-  <loc>http://www.segantinzambon.it/IT/PersonalPhotographerVenice.htm</loc>
-  <lastmod>2015-03-15T20:13:39+00:00</lastmod>
-  <changefreq>yearly</changefreq>
-  <priority>0.64</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="en"
-                 href="http://www.segantinzambon.it/EN/PersonalPhotographerVenice_EN.htm"
-                 />
-</url>
-<url>
-  <loc>http://www.segantinzambon.it/IT/Galleria.htm</loc>
-  <lastmod>2015-03-15T20:13:38+00:00</lastmod>
-  <changefreq>yearly</changefreq>
-  <priority>0.64</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="en"
-                 href="http://www.segantinzambon.it/EN/Gallery.htm"
-                 />
-</url>
-<url>
-  <loc>http://www.segantinzambon.it/IT/FotoAlbum.htm</loc>
-  <lastmod>2015-03-15T20:13:37+00:00</lastmod>
-  <changefreq>yearly</changefreq>
-  <priority>0.64</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="en"
-                 href="http://www.segantinzambon.it/EN/PhotoAlbum.htm"
-                 />
-</url>
-<url>
-  <loc>http://www.segantinzambon.it/IT/EventiCongressiVeneziaLido.htm</loc>
-  <lastmod>2015-03-15T20:13:37+00:00</lastmod>
-  <changefreq>yearly</changefreq>
-  <priority>0.64</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="en"
-                 href="http://www.segantinzambon.it/EN/Events_meetings_conferences.htm"
-                 />
-</url>
-<url>
-  <loc>http://www.segantinzambon.it/IT/Fujifilm.htm</loc>
-  <lastmod>2015-03-15T20:13:38+00:00</lastmod>
-  <changefreq>yearly</changefreq>
-  <priority>0.64</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="en"
-                 href="http://www.segantinzambon.it/EN/Fujifilm_EN.htm"
-                 />
-</url>
-<url>
-  <loc>http://www.segantinzambon.it/IT/Consigliati.htm</loc>
-  <lastmod>2015-03-15T20:13:36+00:00</lastmod>
-  <changefreq>yearly</changefreq>
-  <priority>0.64</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="en"
-                 href="http://www.segantinzambon.it/EN/Links.htm"
-                 />
-</url>
-<url>
-  <loc>http://www.segantinzambon.it/IT/PrezziServizioMatrimonialeVenezia.htm</loc>
-  <lastmod>2015-03-15T20:13:39+00:00</lastmod>
-  <changefreq>yearly</changefreq>
-  <priority>0.64</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="en"
-                 href="http://www.segantinzambon.it/EN/Prices.htm"
-                 />
-</url>
-<url>
-  <loc>http://www.segantinzambon.it/IT/Contatto.htm</loc>
-  <lastmod>2015-03-15T20:13:37+00:00</lastmod>
-  <changefreq>yearly</changefreq>
-  <priority>0.64</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="en"
-                 href="http://www.segantinzambon.it/EN/Contact_us.htm"
-                 />
-</url>
-<url>
-  <loc>http://www.segantinzambon.it/EN/FAQ_EN.html</loc>
-  <lastmod>2015-03-16T15:23:23+00:00</lastmod>
-  <changefreq>yearly</changefreq>
-  <priority>0.64</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="it"
-                 href="http://www.segantinzambon.it/IT/FAQ.html"
-                 />
-</url>
-<url>
-  <loc>http://www.segantinzambon.it/EN/PersonalPhotographerVenice_EN.htm</loc>
-  <lastmod>2015-03-16T15:23:23+00:00</lastmod>
-  <changefreq>yearly</changefreq>
-  <priority>0.64</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="it"
-                 href="http://www.segantinzambon.it/IT/PersonalPhotographerVenice.htm"
-                 />
-</url>
-<url>
-  <loc>http://www.segantinzambon.it/EN/Gallery.htm</loc>
-  <lastmod>2015-03-15T19:59:30+00:00</lastmod>
-  <changefreq>yearly</changefreq>
-  <priority>0.64</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="it"
-                 href="http://www.segantinzambon.it/IT/Galleria.htm"
-                 />
-</url>
-<url>
-  <loc>http://www.segantinzambon.it/EN/PhotoAlbum.htm</loc>
-  <lastmod>2015-03-16T15:23:23+00:00</lastmod>
-  <changefreq>yearly</changefreq>
-  <priority>0.64</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="it"
-                 href="http://www.segantinzambon.it/IT/FotoAlbum.htm"
-                 />
-</url>
-<url>
-  <loc>http://www.segantinzambon.it/EN/Events_meetings_conferences.htm</loc>
-  <lastmod>2015-03-16T15:23:23+00:00</lastmod>
-  <changefreq>yearly</changefreq>
-  <priority>0.64</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="it"
-                 href="http://www.segantinzambon.it/IT/EventiCongressiVeneziaLido.htm"
-                 />
-</url>
-<url>
-  <loc>http://www.segantinzambon.it/EN/Fujifilm_EN.htm</loc>
-  <lastmod>2015-03-16T15:23:23+00:00</lastmod>
-  <changefreq>yearly</changefreq>
-  <priority>0.64</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="it"
-                 href="http://www.segantinzambon.it/IT/Fujifilm.htm"
-                 />
-</url>
-<url>
-  <loc>http://www.segantinzambon.it/EN/Links.htm</loc>
-  <lastmod>2015-03-16T15:23:23+00:00</lastmod>
-  <changefreq>yearly</changefreq>
-  <priority>0.64</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="it"
-                 href="http://www.segantinzambon.it/IT/Consigliati.htm"
-                 />
-</url>
-<url>
-  <loc>http://www.segantinzambon.it/EN/Prices.htm</loc>
-  <lastmod>2015-03-16T15:23:23+00:00</lastmod>
-  <changefreq>yearly</changefreq>
-  <priority>0.64</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="it"
-                 href="http://www.segantinzambon.it/IT/PrezziServizioMatrimonialeVenezia.htm"
-                 />
-</url>
-<url>
-  <loc>http://www.segantinzambon.it/EN/Contact_us.htm</loc>
-  <lastmod>2015-03-16T15:23:23+00:00</lastmod>
-  <changefreq>yearly</changefreq>
-  <priority>0.64</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="it"
-                 href="http://www.segantinzambon.it/IT/Contatti.htm"
-                 />
-</url>
-<url>
-  <loc>http://www.segantinzambon.it/IT/GalleriaMatrimonio.php</loc>
-  <changefreq>yearly</changefreq>
-  <priority>0.51</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="en"
-                 href="http://www.segantinzambon.it/EN/WeddingGallery.php"
-                 />
-</url>
-<url>
-  <loc>http://www.segantinzambon.it/IT/AlbMat1.php</loc>
-  <changefreq>yearly</changefreq>
-  <priority>0.51</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="en"
-                 href="http://www.segantinzambon.it/EN/WedAlb1.php"
-                 />
-</url>
-<url>
-  <loc>http://www.segantinzambon.it/IT/AlbMat2.php</loc>
-  <changefreq>yearly</changefreq>
-  <priority>0.51</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="en"
-                 href="http://www.segantinzambon.it/EN/WedAlb2.php"
-                 />
-</url>
-<url>
-  <loc>http://www.segantinzambon.it/IT/AlbMat3.php</loc>
-  <changefreq>yearly</changefreq>
-  <priority>0.51</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="en"
-                 href="http://www.segantinzambon.it/EN/WedAlb3.php"
-                 />
-</url>
-<url>
-  <loc>http://www.segantinzambon.it/IT/Albums2.htm</loc>
-  <lastmod>2015-03-15T20:13:36+00:00</lastmod>
-  <changefreq>yearly</changefreq>
-  <priority>0.51</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="en"
-                 href="http://www.segantinzambon.it/EN/Albums2_EN.htm"
-                 />
-</url>
-<url>
-  <loc>http://www.segantinzambon.it/IT/AlbMat4.php</loc>
-  <changefreq>yearly</changefreq>
-  <priority>0.51</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="en"
-                 href="http://www.segantinzambon.it/EN/WedAlb4.php"
-                 />
-</url>
-<url>
-  <loc>http://www.segantinzambon.it/IT/AlbMat5.php</loc>
-  <changefreq>yearly</changefreq>
-  <priority>0.51</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="en"
-                 href="http://www.segantinzambon.it/EN/WedAlb5.php"
-                 />
-</url>
-<url>
-  <loc>http://www.segantinzambon.it/IT/Congressi.php</loc>
-  <changefreq>yearly</changefreq>
-  <priority>0.51</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="en"
-                 href="http://www.segantinzambon.it/EN/Meetings.php"
-                 />
-</url>
-<url>
-  <loc>http://www.segantinzambon.it/IT/EventiReligiosi.php</loc>
-  <changefreq>yearly</changefreq>
-  <priority>0.51</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="en"
-                 href="http://www.segantinzambon.it/EN/ReligiousEvents.php"
-                 />
-</url>
-<url>
-  <loc>http://www.segantinzambon.it/EN/WeddingGallery.php</loc>
-  <changefreq>yearly</changefreq>
-  <priority>0.51</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="it"
-                 href="http://www.segantinzambon.it/IT/GalleriaMatrimonio.php"
-                 />
-</url>
-<url>
-  <loc>http://www.segantinzambon.it/EN/WedAlb1.php</loc>
-  <changefreq>yearly</changefreq>
-  <priority>0.51</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="it"
-                 href="http://www.segantinzambon.it/IT/AlbMat1.php"
-                 />
-</url>
-<url>
-  <loc>http://www.segantinzambon.it/EN/WedAlb2.php</loc>
-  <changefreq>yearly</changefreq>
-  <priority>0.51</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="it"
-                 href="http://www.segantinzambon.it/IT/AlbMat2.php"
-                 />
-</url>
-<url>
-  <loc>http://www.segantinzambon.it/EN/WedAlb3.php</loc>
-  <changefreq>yearly</changefreq>
-  <priority>0.51</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="it"
-                 href="http://www.segantinzambon.it/IT/AlbMat3.php"
-                 />
-</url>
-<url>
-  <loc>http://www.segantinzambon.it/EN/Albums2_EN.htm</loc>
-  <lastmod>2015-03-16T15:56:13+00:00</lastmod>
-  <changefreq>yearly</changefreq>
-  <priority>0.51</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="it"
-                 href="http://www.segantinzambon.it/IT/Albums2.htm"
-                 />
-</url>
-<url>
-  <loc>http://www.segantinzambon.it/EN/WedAlb4.php</loc>
-  <changefreq>yearly</changefreq>
-  <priority>0.51</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="it"
-                 href="http://www.segantinzambon.it/IT/AlbMat4.php"
-                 />
-</url>
-<url>
-  <loc>http://www.segantinzambon.it/EN/WedAlb5.php</loc>
-  <changefreq>yearly</changefreq>
-  <priority>0.51</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="it"
-                 href="http://www.segantinzambon.it/IT/AlbMat5.php"
-                 />
-</url>
-<url>
-  <loc>http://www.segantinzambon.it/EN/Meetings.php</loc>
-  <changefreq>yearly</changefreq>
-  <priority>0.51</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="it"
-                 href="http://www.segantinzambon.it/IT/Congressi.php"
-                 />
-</url>
-<url>
-  <loc>http://www.segantinzambon.it/EN/ReligiousEvents.php</loc>
-  <changefreq>yearly</changefreq>
-  <priority>0.51</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="it"
-                 href="http://www.segantinzambon.it/IT/EventiReligiosi.php"
-                 />
-</url>
+	<url>
+		<loc>http://www.segantinzambon.it/</loc>
+		<lastmod>2015-03-18T17:50:45+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>1.00</priority>
+	</url>
+	<url>
+		<loc>http://www.segantinzambon.it/IT/FotografoMatrimonioVenezia.htm</loc>
+		<lastmod>2015-03-18T20:13:38+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.80</priority>
+		<xhtml:link rel="alternate" hreflang="en" href="http://www.segantinzambon.it/EN/About_us.htm"/>
+	</url>
+	<url>
+		<loc>http://www.segantinzambon.it/EN/About_us.htm</loc>
+		<lastmod>2015-03-18T15:23:22+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.80</priority>
+		<xhtml:link rel="alternate" hreflang="it" href="http://www.segantinzambon.it/IT/FotografoMatrimonioVenezia.htm"/>
+	</url>
+	<url>
+		<loc>http://www.segantinzambon.it/IT/FAQ.html</loc>
+		<lastmod>2015-03-18T20:13:37+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.64</priority>
+		<xhtml:link rel="alternate" hreflang="en" href="http://www.segantinzambon.it/EN/FAQ_EN.html"/>
+	</url>
+	<url>
+		<loc>http://www.segantinzambon.it/IT/PersonalPhotographerVenice.htm</loc>
+		<lastmod>2015-03-18T20:13:39+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.64</priority>
+		<xhtml:link rel="alternate" hreflang="en" href="http://www.segantinzambon.it/EN/PersonalPhotographerVenice_EN.htm"/>
+	</url>
+	<url>
+		<loc>http://www.segantinzambon.it/IT/Galleria.htm</loc>
+		<lastmod>2015-03-18T20:13:38+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.64</priority>
+		<xhtml:link rel="alternate" hreflang="en" href="http://www.segantinzambon.it/EN/Gallery.htm"/>
+	</url>
+	<url>
+		<loc>http://www.segantinzambon.it/IT/FotoAlbum.htm</loc>
+		<lastmod>2015-03-18T20:13:37+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.64</priority>
+		<xhtml:link rel="alternate" hreflang="en" href="http://www.segantinzambon.it/EN/PhotoAlbum.htm"/>
+	</url>
+	<url>
+		<loc>http://www.segantinzambon.it/IT/EventiCongressiVeneziaLido.htm</loc>
+		<lastmod>2015-03-18T20:13:37+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.64</priority>
+		<xhtml:link rel="alternate" hreflang="en" href="http://www.segantinzambon.it/EN/Events_meetings_conferences.htm"/>
+	</url>
+	<url>
+		<loc>http://www.segantinzambon.it/IT/Fujifilm.htm</loc>
+		<lastmod>2015-03-18T20:13:38+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.64</priority>
+		<xhtml:link rel="alternate" hreflang="en" href="http://www.segantinzambon.it/EN/Fujifilm_EN.htm"/>
+	</url>
+	<url>
+		<loc>http://www.segantinzambon.it/IT/Consigliati.htm</loc>
+		<lastmod>2015-03-18T20:13:36+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.64</priority>
+		<xhtml:link rel="alternate" hreflang="en" href="http://www.segantinzambon.it/EN/Links.htm"/>
+	</url>
+	<url>
+		<loc>http://www.segantinzambon.it/IT/PrezziServizioMatrimonialeVenezia.htm</loc>
+		<lastmod>2015-03-18T20:13:39+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.64</priority>
+		<xhtml:link rel="alternate" hreflang="en" href="http://www.segantinzambon.it/EN/Prices.htm"/>
+	</url>
+	<url>
+		<loc>http://www.segantinzambon.it/IT/Contatto.htm</loc>
+		<lastmod>2015-03-18T20:13:37+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.64</priority>
+		<xhtml:link rel="alternate" hreflang="en" href="http://www.segantinzambon.it/EN/Contact_us.htm"/>
+	</url>
+	<url>
+		<loc>http://www.segantinzambon.it/EN/FAQ_EN.html</loc>
+		<lastmod>2015-03-18T15:23:23+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.64</priority>
+		<xhtml:link rel="alternate" hreflang="it" href="http://www.segantinzambon.it/IT/FAQ.html"/>
+	</url>
+	<url>
+		<loc>http://www.segantinzambon.it/EN/PersonalPhotographerVenice_EN.htm</loc>
+		<lastmod>2015-03-18T15:23:23+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.64</priority>
+		<xhtml:link rel="alternate" hreflang="it" href="http://www.segantinzambon.it/IT/PersonalPhotographerVenice.htm"/>
+	</url>
+	<url>
+		<loc>http://www.segantinzambon.it/EN/Gallery.htm</loc>
+		<lastmod>2015-03-18T19:59:30+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.64</priority>
+		<xhtml:link rel="alternate" hreflang="it" href="http://www.segantinzambon.it/IT/Galleria.htm"/>
+	</url>
+	<url>
+		<loc>http://www.segantinzambon.it/EN/PhotoAlbum.htm</loc>
+		<lastmod>2015-03-18T15:23:23+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.64</priority>
+		<xhtml:link rel="alternate" hreflang="it" href="http://www.segantinzambon.it/IT/FotoAlbum.htm"/>
+	</url>
+	<url>
+		<loc>http://www.segantinzambon.it/EN/Events_meetings_conferences.htm</loc>
+		<lastmod>2015-03-18T15:23:23+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.64</priority>
+		<xhtml:link rel="alternate" hreflang="it" href="http://www.segantinzambon.it/IT/EventiCongressiVeneziaLido.htm"/>
+	</url>
+	<url>
+		<loc>http://www.segantinzambon.it/EN/Fujifilm_EN.htm</loc>
+		<lastmod>2015-03-18T15:23:23+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.64</priority>
+		<xhtml:link rel="alternate" hreflang="it" href="http://www.segantinzambon.it/IT/Fujifilm.htm"/>
+	</url>
+	<url>
+		<loc>http://www.segantinzambon.it/EN/Links.htm</loc>
+		<lastmod>2015-03-18T15:23:23+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.64</priority>
+		<xhtml:link rel="alternate" hreflang="it" href="http://www.segantinzambon.it/IT/Consigliati.htm"/>
+	</url>
+	<url>
+		<loc>http://www.segantinzambon.it/EN/Prices.htm</loc>
+		<lastmod>2015-03-18T15:23:23+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.64</priority>
+		<xhtml:link rel="alternate" hreflang="it" href="http://www.segantinzambon.it/IT/PrezziServizioMatrimonialeVenezia.htm"/>
+	</url>
+	<url>
+		<loc>http://www.segantinzambon.it/EN/Contact_us.htm</loc>
+		<lastmod>2015-03-18T15:23:23+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.64</priority>
+		<xhtml:link rel="alternate" hreflang="it" href="http://www.segantinzambon.it/IT/Contatti.htm"/>
+	</url>
+	<url>
+		<loc>http://www.segantinzambon.it/IT/GalleriaMatrimonio.php</loc>
+		<lastmod>2015-03-18T15:56:13+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.51</priority>
+		<xhtml:link rel="alternate" hreflang="en" href="http://www.segantinzambon.it/EN/WeddingGallery.php"/>
+	</url>
+	<url>
+		<loc>http://www.segantinzambon.it/IT/AlbMat1.php</loc>
+		<lastmod>2015-03-18T15:56:13+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.51</priority>
+		<xhtml:link rel="alternate" hreflang="en" href="http://www.segantinzambon.it/EN/WedAlb1.php"/>
+	</url>
+	<url>
+		<loc>http://www.segantinzambon.it/IT/AlbMat2.php</loc>
+		<lastmod>2015-03-18T15:56:13+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.51</priority>
+		<xhtml:link rel="alternate" hreflang="en" href="http://www.segantinzambon.it/EN/WedAlb2.php"/>
+	</url>
+	<url>
+		<loc>http://www.segantinzambon.it/IT/AlbMat3.php</loc>
+		<lastmod>2015-03-18T15:56:13+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.51</priority>
+		<xhtml:link rel="alternate" hreflang="en" href="http://www.segantinzambon.it/EN/WedAlb3.php"/>
+	</url>
+	<url>
+		<loc>http://www.segantinzambon.it/IT/Albums2.htm</loc>
+		<lastmod>2015-03-18T20:13:36+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.51</priority>
+		<xhtml:link rel="alternate" hreflang="en" href="http://www.segantinzambon.it/EN/Albums2_EN.htm"/>
+	</url>
+	<url>
+		<loc>http://www.segantinzambon.it/IT/AlbMat4.php</loc>
+		<lastmod>2015-03-18T15:56:13+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.51</priority>
+		<xhtml:link rel="alternate" hreflang="en" href="http://www.segantinzambon.it/EN/WedAlb4.php"/>
+	</url>
+	<url>
+		<loc>http://www.segantinzambon.it/IT/AlbMat5.php</loc>
+		<lastmod>2015-03-18T15:56:13+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.51</priority>
+		<xhtml:link rel="alternate" hreflang="en" href="http://www.segantinzambon.it/EN/WedAlb5.php"/>
+	</url>
+	<url>
+		<loc>http://www.segantinzambon.it/IT/Congressi.php</loc>
+		<lastmod>2015-03-18T15:56:13+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.51</priority>
+		<xhtml:link rel="alternate" hreflang="en" href="http://www.segantinzambon.it/EN/Meetings.php"/>
+	</url>
+	<url>
+		<loc>http://www.segantinzambon.it/IT/EventiReligiosi.php</loc>
+		<lastmod>2015-03-18T15:56:13+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.51</priority>
+		<xhtml:link rel="alternate" hreflang="en" href="http://www.segantinzambon.it/EN/ReligiousEvents.php"/>
+	</url>
+	<url>
+		<loc>http://www.segantinzambon.it/EN/WeddingGallery.php</loc>
+		<lastmod>2015-03-18T15:56:13+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.51</priority>
+		<xhtml:link rel="alternate" hreflang="it" href="http://www.segantinzambon.it/IT/GalleriaMatrimonio.php"/>
+	</url>
+	<url>
+		<loc>http://www.segantinzambon.it/EN/WedAlb1.php</loc>
+		<lastmod>2015-03-18T15:56:13+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.51</priority>
+		<xhtml:link rel="alternate" hreflang="it" href="http://www.segantinzambon.it/IT/AlbMat1.php"/>
+	</url>
+	<url>
+		<loc>http://www.segantinzambon.it/EN/WedAlb2.php</loc>
+		<lastmod>2015-03-18T15:56:13+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.51</priority>
+		<xhtml:link rel="alternate" hreflang="it" href="http://www.segantinzambon.it/IT/AlbMat2.php"/>
+	</url>
+	<url>
+		<loc>http://www.segantinzambon.it/EN/WedAlb3.php</loc>
+		<lastmod>2015-03-18T15:56:13+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.51</priority>
+		<xhtml:link rel="alternate" hreflang="it" href="http://www.segantinzambon.it/IT/AlbMat3.php"/>
+	</url>
+	<url>
+		<loc>http://www.segantinzambon.it/EN/Albums2_EN.htm</loc>
+		<lastmod>2015-03-18T15:56:13+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.51</priority>
+		<xhtml:link rel="alternate" hreflang="it" href="http://www.segantinzambon.it/IT/Albums2.htm"/>
+	</url>
+	<url>
+		<loc>http://www.segantinzambon.it/EN/WedAlb4.php</loc>
+		<lastmod>2015-03-18T15:56:13+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.51</priority>
+		<xhtml:link rel="alternate" hreflang="it" href="http://www.segantinzambon.it/IT/AlbMat4.php"/>
+	</url>
+	<url>
+		<loc>http://www.segantinzambon.it/EN/WedAlb5.php</loc>
+		<lastmod>2015-03-18T15:56:13+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.51</priority>
+		<xhtml:link rel="alternate" hreflang="it" href="http://www.segantinzambon.it/IT/AlbMat5.php"/>
+	</url>
+	<url>
+		<loc>http://www.segantinzambon.it/EN/Meetings.php</loc>
+		<lastmod>2015-03-18T15:56:13+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.51</priority>
+		<xhtml:link rel="alternate" hreflang="it" href="http://www.segantinzambon.it/IT/Congressi.php"/>
+	</url>
+	<url>
+		<loc>http://www.segantinzambon.it/EN/ReligiousEvents.php</loc>
+		<lastmod>2015-03-18T15:56:13+00:00</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.51</priority>
+		<xhtml:link rel="alternate" hreflang="it" href="http://www.segantinzambon.it/IT/EventiReligiosi.php"/>
+	</url>
 </urlset>
