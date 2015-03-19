@@ -9,6 +9,7 @@ function loadImages($location){
 			array_push ( $immagini, $location."/".$imm);
 		}
 	}
+	sort($immagini, SORT_NATURAL | SORT_FLAG_CASE);
 	return $immagini;
 }
 
@@ -35,8 +36,8 @@ body{
 
 
 
-<script async src="../Library/jquery.js"></script>
-<script async src="../Library/jssor.slider.mini.js"></script>
+<script src="../Library/jquery.js"></script>
+<script src="../Library/jssor.slider.mini.js"></script>
 <script async src="../js/mobilenav.js" type="text/javascript"></script>
 <script async src="/js/LanguageChange.js"></script>
 <script async src="../js/Slider.js">
