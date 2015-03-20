@@ -1,3 +1,60 @@
+# BEGIN Compressione MOD_Deflate
+SetOutputFilter DEFLATE
+AddOutputFilter DEFLATE text/plain
+AddOutputFilter DEFLATE text/xml
+AddOutputFilter DEFLATE application/xhtml+xml
+AddOutputFilter DEFLATE text/css
+AddOutputFilter DEFLATE application/xml
+AddOutputFilter DEFLATE image/svg+xml
+AddOutputFilter DEFLATE application/rss+xml
+AddOutputFilter DEFLATE application/atom_xml
+AddOutputFilter DEFLATE application/x-javascript
+AddOutputFilter DEFLATE application/x-httpd-php
+AddOutputFilter DEFLATE application/x-httpd-fastphp
+AddOutputFilter DEFLATE application/x-httpd-eruby
+AddOutputFilter DEFLATE text/html
+SetEnvIfNoCase Request_URI \.(?:gif|jpe?g|png)$ no-gzip dont-vary
+SetEnvIfNoCase Request_URI \.(?:exe|t?gz|zip|bz2|sit|rar)$ no-gzip dont-vary
+SetEnvIfNoCase Request_URI \.pdf$ no-gzip dont-vary
+SetEnvIfNoCase Request_URI \.avi$ no-gzip dont-vary
+SetEnvIfNoCase Request_URI \.mov$ no-gzip dont-vary
+SetEnvIfNoCase Request_URI \.mp3$ no-gzip dont-vary
+SetEnvIfNoCase Request_URI \.mp4$ no-gzip dont-vary
+SetEnvIfNoCase Request_URI \.rm$ no-gzip dont-vary
+BrowserMatch ^Mozilla/4 gzip-only-text/html
+BrowserMatch ^Mozilla/4\.0[678] no-gzip
+BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+# End Compressione MOD_Deflate
+
+# Turn on Expires and set default to 0
+ExpiresActive On
+ExpiresDefault A0
+
+# Set up caching on media files for 1 year (forever?)
+<FilesMatch "\.(flv|ico|pdf|avi|mov|ppt|doc|mp3|wmv|wav)$">
+ExpiresDefault A29030400
+Header append Cache-Control "public"
+</FilesMatch>
+
+# Set up caching on media files for 1 week
+<FilesMatch "\.(gif|jpg|jpeg|png|swf)$">
+ExpiresDefault A604800
+Header append Cache-Control "public"
+</FilesMatch>
+
+# Set up 2 Hour caching on commonly updated files
+<FilesMatch "\.(xml|txt|html|js|css|htm)$">
+ExpiresDefault A7200
+Header append Cache-Control "proxy-revalidate"
+</FilesMatch>
+
+# Force no caching for dynamic files
+<FilesMatch "\.(php|cgi|pl)$">
+ExpiresActive Off
+Header set Cache-Control "private, no-cache, no-store, proxy-revalidate, no-transform"
+Header set Pragma "no-cache"
+</FilesMatch>
+
 ErrorDocument 400 /EN/400.html
 ErrorDocument 401 /EN/401.html
 ErrorDocument 403 /EN/403.html
