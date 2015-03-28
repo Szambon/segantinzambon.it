@@ -15,6 +15,7 @@ function loadImages($location){
 
 function setUpSlideShow($img_array, $lang, $title, $desc, $menu){
 ?>
+<!DOCTYPE html>
 <html lang="<? echo $lang;?>">
 <head>
 <title><? echo $title;?></title>
@@ -38,16 +39,16 @@ body{
 
 <script src="../Library/jquery.js"></script>
 <script src="../Library/jssor.slider.mini.js"></script>
-<script async src="../js/mobilenav.js" type="text/javascript"></script>
-<script async src="/js/LanguageChange.js"></script>
-<script async src="../js/Slider.js">
+<script src="../js/mobilenav.js" type="text/javascript"></script>
+<script src="/js/LanguageChange.js"></script>
+<script src="../js/Slider.js">
 </script>
 </head>
 <body  vocab="http://schema.org/">
 <span id="cover"></span>
 <? echo $menu;?>
 <div id="container">
-    <div id="slider1_container" style="position:relative; width:800; height: 600;">
+    <div id="slider1_container" style="position:relative; width:800px; height: 600px;">
         <!-- Loading Screen -->
         <div u="loading" style="position: absolute; top: 0px; left: 0px;">
                 <div style="filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block;
@@ -58,7 +59,7 @@ body{
                 </div>
         </div>
         <!-- Slides Container -->
-        <div u="slides" style="cursor: move; position: relative; overflow: hidden; left: 0px; top: 0px; width: 800; height: 600;">
+        <div u="slides" style="position: relative; overflow: hidden; left: 0px; top: 0px; width: 800px; height: 600px;">
             	<?
 					foreach($img_array as $image){
 						?>
@@ -92,12 +93,13 @@ body{
                     </div>
                 </div>
             </div>
+			
             <!-- Thumbnail Item Skin End -->
         </div>
         <!-- Thumbnail Navigator Skin End -->
+		<div u="any" id="play_button" style="position: absolute; left:0px; bottom: -150px; left:380px">
+		</div>
 	</div>
-        <div id="play_button">
-        </div>
 </div>
 </body>
 </html>

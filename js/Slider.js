@@ -1,11 +1,11 @@
-
+	var jssor_slider1;
 	function getContentHeight(){
 		return $(window).height()-$("#container").offset().top;
 	}
     jQuery(document).ready(function ($) {
         var options = {
 			$ArrowKeyNavigation: true,
-			$FillMode: 1,
+			$FillMode: 5,
 			$AutoPlay: true,
 			$ArrowNavigatorOptions: {
 				$Class: $JssorArrowNavigator$,
@@ -22,7 +22,7 @@
 		};
 		$("#play_button").attr("state", "active");
 		
-        var jssor_slider1 = new $JssorSlider$('slider1_container', options);
+        jssor_slider1 = new $JssorSlider$('slider1_container', options);
 		
 		//responsive code begin
 		//you can remove responsive code if you don't want the slider scales while window resizes
@@ -35,13 +35,11 @@
 				var thumbHeight = originalHeight/6;
 				originalHeight += thumbHeight;
 				
-				$("#play_button").each(function(){this.style.setProperty("margin-top", (thumbHeight), 'important');});
 	
 				var scaleWidth = parentWidth;
 				if (parentWidth / originalWidth > windowHeight / originalHeight) {
 					scaleWidth = Math.ceil((windowHeight / originalHeight )* originalWidth);
 				}
-	
 				jssor_slider1.$SetScaleWidth(scaleWidth);
 			}
 			else
