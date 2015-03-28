@@ -20,25 +20,37 @@
 <link href="CSS/Stile2Mobile.css" media="(max-width: 750px)" rel="stylesheet" type="text/css" />
 <script async type="text/javascript" src="/js/analytics.js"></script>
 <style>
+html{
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
 #rosetto{
-	position:absolute;
-	top:0px;
-	left:12%;
+	margin-left:12%;
 	width:88%;
 	background:#e0b3de;
 	min-height:100%;
+	min-height: 100vh;
 }
 #container{
 	background:#CCC;
-	padding: 2.5%;
+	padding: 0 2.5%;
 	margin-left:.5%;
    	width:94.5%;
 	text-align:center;
 	min-width:0px;
-	height:100%;
+	min-height:100%;
+	min-height:100vh;
 }
-#container div{
-	display:inline-block;
+#container > div{
+	padding: 2.5% 0;
+	max-width:1600px;
+	margin:auto;
+}
+#container div
+{
+	display:block;
 }
 #index_central_images{
 	width:100%;
@@ -71,7 +83,7 @@ window.onload = function() {
 <body  vocab="http://schema.org/">
 <div id="rosetto">
     <div id="container">
-    
+    	<div>
         <div>
             <div id="language" class="testosito_index">
 <a href="./IT/FotografoMatrimonioVenezia.htm">IT</a>&emsp;&emsp;<a href="./EN/About_us.htm">EN</a>
@@ -102,6 +114,7 @@ window.onload = function() {
 				  <span property="isicV4">02101550271</span> <a href="mailto:foto@segantinzambon.it" property="email">foto@segantinzambon.it</a></p>
 			 </div>
       </div>
+	  </div>
   </div>
 </body>
 </html>
