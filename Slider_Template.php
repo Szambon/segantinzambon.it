@@ -66,7 +66,7 @@ body{
                         <div>
                             <img u="image" src="<? echo $image;?>" />
                             <div u="thumb">
-                                <div style="width: 100%; height: 100%; background-image: url(<? echo $image;?>); background-size: contain; background-repeat:no-repeat; background-position:center;"></div>
+                                <div style="width: 100%; height: 100%; background-image: url('<? echo $image;?>'); background-size: contain; background-repeat:no-repeat; background-position:center;"></div>
                             </div>
                         </div>
                         <?
