@@ -1,7 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
-<? session_start();
+<? 
+session_start();
+require('DBConnect.php');
 if(!isset($_SESSION['album'])){
 	$_SESSION['err']=1;
 	header('Location:Galleria.php');
@@ -11,11 +13,13 @@ if(!isset($_GET['id'])){
 	header('Location:album.php');
 }
 $curr=$_GET['id'];
-$did=file_get_contents("./Gallery/$album/Info/Didascalia.txt");
-$nome=file_get_contents("./Gallery/$album/Info/Nome.txt");
-$pos = strpos($did, '¦');
-$sig= substr($did, $pos+2);
-$sig2= substr($did, 0, $pos);
+
+$result = $dbConnection->prepare("SELECT * FROM PrivateAlbums WHERE Cartella = :album", array(PDO::ATTR_CURSOR => PDO::CURSOR_FWDONLY));
+$result->execute(array(':album' => $album));
+$result = $result->fetch();
+$nome=$result['Nome'];
+$sig= $result['Sigla'];
+$sig2= $result['Didascalia'];
 $dirimm = opendir('./Gallery/'.$album.'/Galleria/thumb');
 $immagini=array();
 $quanti=0;
