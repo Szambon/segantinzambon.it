@@ -26,7 +26,13 @@
 li.selected{color:#606060;background:#fff;background:-webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));background:-moz-linear-gradient(top, #fff, #ededed);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed');cursor:default;padding:0 .5em;}
 .pair{margin-bottom:1em !important;}
 .pair2{margin-top:3em !important;}
-.testosito{font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;font-size:medium;color:#333;text-align:left;padding-top:1em;}
+.testosito{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:medium;
+	color:#333;
+	text-align:left;
+	padding-top:1em;
+}
 .strong_line{margin:1em 0;}
 .testosito_img{alignment-adjust:auto;}
 .testosito_centre{font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;font-size:medium;color:#333;text-align:center;padding-top:2em;padding-bottom:2em;}
