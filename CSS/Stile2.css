@@ -1,4 +1,6 @@
-@charset "utf-8";body{background:#929292;}
+@charset "utf-8";body{
+	background:#929292;
+}
 *{margin:0;padding:0;}
 .related_images{float:left;}
 .lateral_text{padding:1em;margin-left:290px;}
@@ -41,6 +43,11 @@ li.selected{color:#606060;background:#fff;background:-webkit-gradient(linear, le
 .testositopiccolo2{padding-top:0em;padding-bottom:5em;text-align:center;font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;font-size:small;color:#333;}
 .testositopiccolo{margin:2em 0;clear:both;padding:5em;text-align:center;font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;font-size:small;color:#333;}
 .testositopiccoloB{padding-top:2em;font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;font-size:medium;color:#FFFFFF;text-align:left;}
+.testosito_grassetto{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:#000000;
+	font-weight: bold;
+}
 .testositopiccolorosso{font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;font-size:medium;color:#F00
 font-style:italic;}
 .tris{font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;font-size:medium;color:#333;text-align:center;margin:auto;}
@@ -52,6 +59,12 @@ font-style:italic;}
 	font-size:medium;
 	color:#FFF;
 	font-style:italic;
+}
+.citazioni_grassetto{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:#000;
+	font-style: italic;
+	font-weight: bolder;
 }
 .not_underlined_text{text-decoration:none;}
 .xbarra{font-size:smaller;color:#000000;font-family:Arial, Helvetica, sans-serif;}
@@ -91,4 +104,11 @@ font-style:italic;}
 .mobile_Navigation{display:none;}
 @media (min-width:751px){#menu{display:block !important;}
 #cover{display:none !important;}
+}
+#container div div .testosito_index p {
+	font-weight: bold;
+}
+#container div div .testosito_index p {
+	font-weight: normal;
+
 }
